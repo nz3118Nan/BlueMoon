@@ -1,0 +1,38 @@
+[
+  "fetch_evm_portfolio",
+  "fetch_solana_portfolio",
+  "fetch_evm_vaults",
+  "fetch_solana_vaults",
+  "deposit_asset_to_evm_vault",
+  "deposit_asset_to_solana_vault",
+  "swap_or_bridge_assets",
+  "fetch_supported_chains",
+  "fund_wallet",
+  "withdraw_asset_from_evm_vault",
+  "withdraw_asset_from_solana_vault",
+  "complete_pending_withdrawal_for_solana_vault"
+]
+
+[
+  "fetch_evm_portfolio",
+  "fetch_solana_portfolio"
+]
+
+
+"launch_token"
+"fetch_evm_portfolio"
+"fetch_evm_vaults"
+"fetch_evm_best_vaults"
+"fetch_supported_chains"
+"deposit_asset_to_evm_vault"
+"withdraw_asset_from_evm_vault"
+"swap_or_bridge_assets"
+"fetch_sui_vaults"
+"fund_wallet"
+"fetch_sui_portfolio"
+"deposit_asset_to_sui_vault"
+"fetch_solana_vaults"
+"fetch_solana_portfolio"
+"deposit_asset_to_solana_vault"
+"withdraw_asset_from_solana_vault"
+"complete_pending_withdrawal_for_solana_vault"

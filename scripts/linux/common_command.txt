@@ -1,0 +1,168 @@
+# create conda environment python=3.10
+conda create -n blueprint python=3.10
+
+# activate the conda environment
+conda activate blueprint
+
+# 1. pantry install --no root 
+poetry install --no-root 
+poetry update 
+
+# 2. run the app
+poetry run uvicorn app.main:app --reload
+
+# 3. run the test
+poetry run pytest
+
+################################################################################
+# ngrok
+ngrok config add-authtoken 2T1fhAA7yjWJ2lPelhg1qoUsBsT_9PrBMCebzX4ubkeEJjPM
+## ngrok server start
+ngrok tunnel --label edge=edghts_2Z8KxM7YTaKqJ6g6fbK45UwQS21 http://localhost:8080
+
+################################################################################
+# Local Development Workflow
+
+# 1. Create new database migration (if database changes are needed)
+alembic revision --autogenerate -m "describe your database changes"
+
+# 2. Review the generated migration file
+# Check the latest file in migrations/versions/ directory
+
+# 3. Test migration locally
+
+# Rebuild and run to test migration
+docker build -t blueprint-ai-agent-service .
+
+# Stop local service
+docker stop blueprint-agent || true && docker rm blueprint-agent || true && docker run -d -p 3000:3000 --name blueprint-agent blueprint-ai-agent-service
+docker stop blueprint-agent || true && docker rm blueprint-agent || true && docker run -d -p 8080:3000 --name blueprint-agent blueprint-ai-agent-service
+
+################################################################################
+# Code Submission Process
+
+# 1. Check modified files
+git status
+
+# 2. Stage changes
+# Add code changes
+git add app/
+# Add migration files (if any)
+git add migrations/versions/
+
+# 3. Commit changes
+# For database changes:
+git commit -m "feat: add new feature with database migration
+- Added new feature description
+- Added database migration for [describe changes]"
+
+# For code-only changes:
+git commit -m "feat: add new feature
+- Added new feature description"
+
+# 4. Push to remote repository
+git push origin main  # or your target branch
+
+################################################################################
+# Deployment Process
+
+# Test Environment Deployment
+# 1. Pull latest code on test server
+git pull origin main
+
+# 2. Rebuild and deploy
+docker stop blueprint-agent || true && \
+docker rm blueprint-agent || true && \
+docker build -t blueprint-ai-agent-service . && \
+docker run -d -p 3000:3000 --name blueprint-agent blueprint-ai-agent-service
+
+# 3. Check service logs for migration success
+docker logs -f blueprint-agent
+
+# Production Environment Deployment
+# 1. Pull latest code on production server
+git pull origin main
+
+# 2. [Optional] Backup production database
+pg_dump -U your_user -d blueagent_service > backup_$(date +%Y%m%d_%H%M%S).sql
+
+# 3. Rebuild and deploy
+docker stop blueprint-agent || true && \
+docker rm blueprint-agent || true && \
+docker build -t blueprint-ai-agent-service . && \
+docker run -d -p 3000:3000 --name blueprint-agent blueprint-ai-agent-service
+
+# 4. Check service logs for migration success
+docker logs -f blueprint-agent
+
+################################################################################
+# Post-Deployment Verification
+
+# 1. Check if service is running
+docker ps | grep blueprint-agent
+
+# 2. Check logs for errors
+docker logs blueprint-agent | grep ERROR
+
+# 3. Verify database migration success
+# Look for logs like:
+# "Database initialization completed successfully"
+# "All migrations applied successfully"
+
+################################################################################
+# Rollback Procedure (if needed)
+
+# 1. Stop new version
+docker stop blueprint-agent
+
+# 2. Restore database backup (if database changes were made)
+psql -U your_user -d blueagent_service < backup_file.sql
+
+# 3. Rollback code version
+git reset --hard previous_commit_hash
+
+# 4. Redeploy previous version
+docker build -t blueprint-ai-agent-service .
+docker run -d -p 3000:3000 --name blueprint-agent blueprint-ai-agent-service
+
+################################################################################
+# Best Practices
+
+# Pre-Commit Checklist:
+# - Verify migration file content is correct
+# - Test migrations locally
+# - Review code changes
+
+# Deployment Notes:
+# - Always backup production database before deployment
+# - Deploy in stages: Test -> Staging -> Production
+# - Monitor logs after deployment
+
+# Monitoring and Verification:
+# - Check service startup logs
+# - Verify database migration success
+# - Test new functionality
+
+# Documentation:
+# - Document database changes
+# - Update deployment documentation if needed
+# - Document rollback steps
+
+################################################################################
+# slack app level token 
+***REMOVED***
+
+
+git stash save "Temporary stash before pulling from main"
+git fetch origin main
+git merge origin/main
+git stash pop 
+git add .
+git commit -am 'minor'
+git push 
+
+
+################################################################################
+# pytest 
+
+pytest -m unit

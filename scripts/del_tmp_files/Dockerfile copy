@@ -1,0 +1,81 @@
+# Use an official lightweight Python image.
+FROM python:3.10-slim
+
+# set working directory
+# set working directory
+WORKDIR /app
+
+# install poetry
+RUN pip install poetry
+
+# Install dependencies for Prisma
+RUN apt-get update && apt-get install -y \
+    openssl \
+    curl \
+    nodejs \
+    npm \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Prisma CLI globally
+RUN npm install -g prisma
+
+# Configure poetry to not create virtual environment and use system packages
+ENV POETRY_VIRTUALENVS_CREATE=false
+ENV POETRY_VIRTUALENVS_IN_PROJECT=false
+ENV POETRY_VIRTUALENVS_PATH=/tmp/poetry-virtualenvs
+
+# Set environment variables for Prisma
+ENV HOME=/root
+ENV XDG_CACHE_HOME=/root/.cache
+ENV PRISMA_CACHE_DIR=/root/.cache/prisma-python
+
+# copy files
+COPY pyproject.toml poetry.lock ./
+RUN poetry install --only main --no-root
+
+# Copy project files
+COPY . .
+
+# Create necessary directories for Prisma
+RUN mkdir -p /root/.cache/prisma-python \
+    && mkdir -p /root/.prisma/client
+
+# Create prisma schema file
+RUN echo 'datasource client { \
+  provider = "postgresql" \
+  url      = env("DATABASE_URL") \
+} \
+\
+generator client { \
+  provider             = "prisma-client-py" \
+  interface            = "asyncio" \
+  recursive_type_depth = -1 \
+  output              = "/root/.prisma/client" \
+} \
+\
+model User { \
+  id         Int      @id @default(autoincrement()) \
+  email      String?  @unique \
+  username   String? \
+  created_at DateTime @default(now()) \
+}' > /root/.prisma/schema.prisma
+
+# Run Prisma generate during build
+RUN npx prisma generate --schema=/root/.prisma/schema.prisma || \
+    npx prisma generate --schema=/root/.prisma/schema.prisma --allow-no-models
+
+# Find the engine binaries and set environment variables
+RUN SCHEMA_ENGINE=$(find /root/.prisma -name "schema-engine*" | head -n 1) && \
+    QUERY_ENGINE=$(find /root/.prisma -name "query-engine*" | head -n 1) && \
+    echo "export PRISMA_SCHEMA_ENGINE_BINARY=\"$SCHEMA_ENGINE\"" >> /etc/profile && \
+    echo "export PRISMA_QUERY_ENGINE_BINARY=\"$QUERY_ENGINE\"" >> /etc/profile && \
+    echo "export PRISMA_SCHEMA_PATH=\"/root/.prisma/schema.prisma\"" >> /etc/profile
+
+# Make entrypoint.sh executable
+RUN chmod +x /app/app/entrypoint.sh
+
+# expose port
+EXPOSE 3000 4000
+
+# set entrypoint
+ENTRYPOINT ["/app/app/entrypoint.sh"]

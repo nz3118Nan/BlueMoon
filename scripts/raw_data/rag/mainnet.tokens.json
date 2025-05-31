@@ -1,0 +1,2462 @@
+{
+  "itemsOnPage": 189,
+  "data": [
+    {
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "assetCaip": "eip155:1/erc20:0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/dai.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "assetCaip": "eip155:1/erc20:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "assetCaip": "eip155:1/erc20:0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdt.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "assetCaip": "eip155:1/erc20:0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/wbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "assetCaip": "eip155:1/erc20:0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/weth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+      "assetCaip": "eip155:1/erc20:0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/pyusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+      "assetCaip": "eip155:1/erc20:0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+      "name": "Curve.Fi USD Stablecoin",
+      "symbol": "crvUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/crvusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+      "assetCaip": "eip155:1/erc20:0x853d955aCEf822Db058eb8505911ED77F175b99e",
+      "name": "Frax",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/frax.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "assetCaip": "eip155:1/erc20:0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/lusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "assetCaip": "eip155:1/erc20:0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+      "name": "Gho Token",
+      "symbol": "GHO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/gho.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+      "assetCaip": "eip155:1/erc20:0x57Ab1ec28D129707052df4dF418D58a2D46d5f51",
+      "name": "Synth sUSD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/susd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "assetCaip": "eip155:1/erc20:0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/cbeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1BED97CBC3c24A4fb5C069C6E311a967386131f7",
+      "assetCaip": "eip155:1/erc20:0x1BED97CBC3c24A4fb5C069C6E311a967386131f7",
+      "name": "Yearn Ether",
+      "symbol": "yETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+      "assetCaip": "eip155:1/erc20:0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+      "name": "EURA (previously agEUR)",
+      "symbol": "EURA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eura.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "assetCaip": "eip155:1/erc20:0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usde.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "assetCaip": "eip155:1/erc20:0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/steth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+      "assetCaip": "eip155:1/erc20:0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+      "name": "Pax Dollar",
+      "symbol": "USDP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdp.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+      "assetCaip": "eip155:1/erc20:0x0000000000085d4780B73119b644AE5ecd22b376",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/tusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+      "assetCaip": "eip155:1/erc20:0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd",
+      "name": "Gemini dollar",
+      "symbol": "GUSD",
+      "decimals": 2,
+      "assetLogo": "https://images.vaults.fyi/tokens/gusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000000",
+      "assetCaip": "eip155:1/slip44:60",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5E8422345238F34275888049021821E8E08CAa1f",
+      "assetCaip": "eip155:1/erc20:0x5E8422345238F34275888049021821E8E08CAa1f",
+      "name": "Frax Ether",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/frxeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+      "assetCaip": "eip155:1/erc20:0x865377367054516e17014CcdED1e7d814EDC9ce4",
+      "name": "Dola USD Stablecoin",
+      "symbol": "DOLA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/dola.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+      "assetCaip": "eip155:1/erc20:0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+      "name": "Matic Token",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/matic.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "assetCaip": "eip155:1/erc20:0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/wsteth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "assetCaip": "eip155:1/erc20:0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/reth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+      "assetCaip": "eip155:1/erc20:0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+      "name": "Mountain Protocol USD",
+      "symbol": "USDM",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdm.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+      "assetCaip": "eip155:1/erc20:0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+      "name": "Savings Dai",
+      "symbol": "sDAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sdai.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+      "assetCaip": "eip155:1/erc20:0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+      "name": "tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/tbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "assetCaip": "eip155:1/erc20:0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/uni.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "assetCaip": "eip155:1/erc20:0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/link.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "assetCaip": "eip155:1/erc20:0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "name": "Lido DAO Token",
+      "symbol": "LDO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ldo.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "assetCaip": "eip155:1/erc20:0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/weeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+      "assetCaip": "eip155:1/erc20:0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+      "name": "Wrapped Mountain Protocol USD",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdm.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+      "assetCaip": "eip155:1/erc20:0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+      "name": "Monerium EUR emoney",
+      "symbol": "EURe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eure.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "assetCaip": "eip155:1/erc20:0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "name": "Euro Coin",
+      "symbol": "EURC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/eurc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "assetCaip": "eip155:1/erc20:0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/mkr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+      "assetCaip": "eip155:1/erc20:0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+      "name": "USDA",
+      "symbol": "USDA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usda.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
+      "assetCaip": "eip155:1/erc20:0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
+      "name": "Usual USD",
+      "symbol": "USD0",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usd0.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2",
+      "assetCaip": "eip155:1/erc20:0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2",
+      "name": "EUR CoinVertible",
+      "symbol": "EURCV",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eurcv.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+      "assetCaip": "eip155:1/erc20:0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+      "name": "Electronic Dollar",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x69000405f9DcE69BD4Cbf4f2865b79144A69BFE0",
+      "assetCaip": "eip155:1/erc20:0x69000405f9DcE69BD4Cbf4f2865b79144A69BFE0",
+      "name": "ZAI Stablecoin",
+      "symbol": "USDz",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdz.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "assetCaip": "eip155:1/erc20:0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "name": "AUSD",
+      "symbol": "AUSD",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+      "assetCaip": "eip155:1/erc20:0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+      "name": "Paxos Gold",
+      "symbol": "PAXG",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/paxg.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+      "assetCaip": "eip155:1/erc20:0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+      "name": "USDS Stablecoin",
+      "symbol": "USDS",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usds.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "assetCaip": "eip155:1/erc20:0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "name": "Coinbase Wrapped BTC",
+      "symbol": "cbBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/cbbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
+      "assetCaip": "eip155:1/erc20:0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
+      "name": "Autocompounding Pirex Ether",
+      "symbol": "apxETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/apxeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+      "assetCaip": "eip155:1/erc20:0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ezeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811",
+      "assetCaip": "eip155:1/erc20:0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811",
+      "name": "Renzo Restaked LST ",
+      "symbol": "pzETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pzeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+      "assetCaip": "eip155:1/erc20:0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+      "name": "ETHx",
+      "symbol": "ETHx",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ethx.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+      "assetCaip": "eip155:1/erc20:0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+      "name": "rswETH",
+      "symbol": "rswETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rsweth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+      "assetCaip": "eip155:1/erc20:0xD9A442856C234a39a81a089C06451EBAa4306a72",
+      "name": "pufETH",
+      "symbol": "pufETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pufeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "assetCaip": "eip155:1/erc20:0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "name": "Staked USDe",
+      "symbol": "sUSDe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/susde.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "assetCaip": "eip155:1/erc20:0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "name": "ENA",
+      "symbol": "ENA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ena.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7223442cad8e9cA474fC40109ab981608F8c4273",
+      "assetCaip": "eip155:1/erc20:0x7223442cad8e9cA474fC40109ab981608F8c4273",
+      "name": "King Karak LRT",
+      "symbol": "weETHk",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/weethk.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88",
+      "assetCaip": "eip155:1/erc20:0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88",
+      "name": "Super Symbiotic LRT",
+      "symbol": "weETHs",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/weeths.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xe1B4d34E8754600962Cd944B535180Bd758E6c2e",
+      "assetCaip": "eip155:1/erc20:0xe1B4d34E8754600962Cd944B535180Bd758E6c2e",
+      "name": "Kelp Gain",
+      "symbol": "agETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ageth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+      "assetCaip": "eip155:1/erc20:0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+      "name": "rsETH",
+      "symbol": "rsETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rseth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+      "assetCaip": "eip155:1/erc20:0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+      "name": "Staked USDA",
+      "symbol": "stUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/stusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x97de57eC338AB5d51557DA3434828C5DbFaDA371",
+      "assetCaip": "eip155:1/erc20:0x97de57eC338AB5d51557DA3434828C5DbFaDA371",
+      "name": "eUSD",
+      "symbol": "eUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+      "assetCaip": "eip155:1/erc20:0xE72B141DF173b999AE7c1aDcbF60Cc9833Ce56a8",
+      "name": "ETHPlus",
+      "symbol": "ETH+",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eth+.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0d86883FAf4FfD7aEb116390af37746F45b6f378",
+      "assetCaip": "eip155:1/erc20:0x0d86883FAf4FfD7aEb116390af37746F45b6f378",
+      "name": "Web 3 Dollar",
+      "symbol": "USD3",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usd3.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xDcEe70654261AF21C44c093C300eD3Bb97b78192",
+      "assetCaip": "eip155:1/erc20:0xDcEe70654261AF21C44c093C300eD3Bb97b78192",
+      "name": "Wrapped OETH",
+      "symbol": "WOETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/woeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5fD13359Ba15A84B76f7F87568309040176167cd",
+      "assetCaip": "eip155:1/erc20:0x5fD13359Ba15A84B76f7F87568309040176167cd",
+      "name": "Amphor Restaked ETH",
+      "symbol": "amphrETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/amphreth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xBEEF69Ac7870777598A04B2bd4771c71212E6aBc",
+      "assetCaip": "eip155:1/erc20:0xBEEF69Ac7870777598A04B2bd4771c71212E6aBc",
+      "name": "Steakhouse Resteaking Vault",
+      "symbol": "steakLRT",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/steaklrt.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7a4EffD87C2f3C55CA251080b1343b605f327E3a",
+      "assetCaip": "eip155:1/erc20:0x7a4EffD87C2f3C55CA251080b1343b605f327E3a",
+      "name": "Restaking Vault ETH",
+      "symbol": "rstETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rsteth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7aa68E84bCD8d1B4C9e10B1e565DB993f68a3E09",
+      "assetCaip": "eip155:1/erc20:0x7aa68E84bCD8d1B4C9e10B1e565DB993f68a3E09",
+      "name": "PT Kelp Gain 26DEC2024",
+      "symbol": "PT-agETH-26DEC2024",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-ageth-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xB07b9fDd62DC478E521E8bDe3630a777725B0eB4",
+      "assetCaip": "eip155:1/erc20:0xB07b9fDd62DC478E521E8bDe3630a777725B0eB4",
+      "name": "PT Kelp rsETH 26DEC2024",
+      "symbol": "PT-rsETH-26DEC2024",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-rseth-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+      "assetCaip": "eip155:1/erc20:0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+      "name": "Beam",
+      "symbol": "BEAM",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/beam.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+      "assetCaip": "eip155:1/erc20:0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
+      "name": "Ondo U.S. Dollar Yield",
+      "symbol": "USDY",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdy.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "assetCaip": "eip155:1/erc20:0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+      "name": "Savings USDS",
+      "symbol": "sUSDS",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/susds.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+      "assetCaip": "eip155:1/erc20:0x2C537E5624e4af88A7ae4060C022609376C8D0EB",
+      "name": "BiLira",
+      "symbol": "TRYB",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/tryb.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81",
+      "assetCaip": "eip155:1/erc20:0xE00bd3Df25fb187d6ABBB620b3dfd19839947b81",
+      "name": "PT Ethena sUSDE 27MAR2025",
+      "symbol": "PT-sUSDE-27MAR2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-susde-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+      "assetCaip": "eip155:1/erc20:0x8236a87084f8B84306f72007F36F2618A5634494",
+      "name": "Lombard Staked Bitcoin",
+      "symbol": "LBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/lbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
+      "assetCaip": "eip155:1/erc20:0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
+      "name": "Beefy",
+      "symbol": "BIFI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/bifi.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xEe9085fC268F6727d5D4293dBABccF901ffDCC29",
+      "assetCaip": "eip155:1/erc20:0xEe9085fC268F6727d5D4293dBABccF901ffDCC29",
+      "name": "PT Ethena sUSDE 26DEC2024",
+      "symbol": "PT-sUSDE-26DEC2024",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-susde-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
+      "assetCaip": "eip155:1/erc20:0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
+      "name": "Memecoin",
+      "symbol": "MEME",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/meme.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xF915110898d9a455Ad2DA51BF49520b41655Ccea",
+      "assetCaip": "eip155:1/erc20:0xF915110898d9a455Ad2DA51BF49520b41655Ccea",
+      "name": "TAI reflex index",
+      "symbol": "TAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/tai.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+      "assetCaip": "eip155:1/erc20:0xBcca60bB61934080951369a648Fb03DF4F96263C",
+      "name": "Aave interest bearing USDC",
+      "symbol": "aUSDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausdc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+      "assetCaip": "eip155:1/erc20:0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+      "name": "Aave Ethereum USDC",
+      "symbol": "aEthUSDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/aethusdc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xe063F04f280c60aECa68b38341C2eEcBeC703ae2",
+      "assetCaip": "eip155:1/erc20:0xe063F04f280c60aECa68b38341C2eEcBeC703ae2",
+      "name": "Leveraged ETH",
+      "symbol": "xETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/xeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x53805A76E1f5ebbFE7115F16f9c87C2f7e633726",
+      "assetCaip": "eip155:1/erc20:0x53805A76E1f5ebbFE7115F16f9c87C2f7e633726",
+      "name": "Fractional ETH",
+      "symbol": "fETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/feth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xed1167b6Dc64E8a366DB86F2E952A482D0981ebd",
+      "assetCaip": "eip155:1/erc20:0xed1167b6Dc64E8a366DB86F2E952A482D0981ebd",
+      "name": "Lybra",
+      "symbol": "LBR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/lbr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+      "assetCaip": "eip155:1/erc20:0x9a96ec9B57Fb64FbC60B423d1f4da7691Bd35079",
+      "name": "AjnaToken",
+      "symbol": "AJNA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ajna.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2Ebd53d035150f328bd754D6DC66B99B0eDB89aa",
+      "assetCaip": "eip155:1/erc20:0x2Ebd53d035150f328bd754D6DC66B99B0eDB89aa",
+      "name": "Metronome2",
+      "symbol": "MET",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/met.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "assetCaip": "eip155:1/erc20:0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "name": "Curve DAO Token",
+      "symbol": "CRV",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/crv.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "assetCaip": "eip155:1/erc20:0xC1f33e0cf7e40a67375007104B929E49a581bafE",
+      "name": "SPOT",
+      "symbol": "SPOT",
+      "decimals": 9,
+      "assetLogo": "https://images.vaults.fyi/tokens/spot.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+      "assetCaip": "eip155:1/erc20:0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+      "name": "Wrapped Ampleforth",
+      "symbol": "WAMPL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/wampl.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+      "assetCaip": "eip155:1/erc20:0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b",
+      "name": "DefiPulse Index",
+      "symbol": "DPI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/dpi.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xd1e0e39bD1758ABe0865d5289895A9197C6Cd549",
+      "assetCaip": "eip155:1/erc20:0xd1e0e39bD1758ABe0865d5289895A9197C6Cd549",
+      "name": "UAHG",
+      "symbol": "UAHg",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/uahg.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "assetCaip": "eip155:1/erc20:0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "name": "VitaDAO Token",
+      "symbol": "VITA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/vita.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "assetCaip": "eip155:1/erc20:0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yfi.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xb8b295df2cd735b15BE5Eb419517Aa626fc43cD5",
+      "assetCaip": "eip155:1/erc20:0xb8b295df2cd735b15BE5Eb419517Aa626fc43cD5",
+      "name": "Staked LINK",
+      "symbol": "stLINK",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/stlink.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x30aE41D5f9988D359c733232C6c693c0e645C77E",
+      "assetCaip": "eip155:1/erc20:0x30aE41D5f9988D359c733232C6c693c0e645C77E",
+      "name": "Wrapped AyeAyeCoin",
+      "symbol": "WAAC",
+      "decimals": 0,
+      "assetLogo": "https://images.vaults.fyi/tokens/waac.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4591DBfF62656E7859Afe5e45f6f47D3669fBB28",
+      "assetCaip": "eip155:1/erc20:0x4591DBfF62656E7859Afe5e45f6f47D3669fBB28",
+      "name": "Prisma mkUSD",
+      "symbol": "mkUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/mkusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+      "assetCaip": "eip155:1/erc20:0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+      "name": "Pirex Ether",
+      "symbol": "pxETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pxeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+      "assetCaip": "eip155:1/erc20:0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+      "name": "ether.fi ETH",
+      "symbol": "eETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2DABcea55a12d73191AeCe59F508b191Fb68AdaC",
+      "assetCaip": "eip155:1/erc20:0x2DABcea55a12d73191AeCe59F508b191Fb68AdaC",
+      "name": "Karak - Wrapped eETH",
+      "symbol": "KweETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/kweeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xF1376bceF0f78459C0Ed0ba5ddce976F1ddF51F4",
+      "assetCaip": "eip155:1/erc20:0xF1376bceF0f78459C0Ed0ba5ddce976F1ddF51F4",
+      "name": "Universal ETH",
+      "symbol": "uniETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/unieth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+      "assetCaip": "eip155:1/erc20:0xf951E335afb289353dc249e82926178EaC7DEd78",
+      "name": "swETH",
+      "symbol": "swETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sweth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+      "assetCaip": "eip155:1/erc20:0xac3E018457B222d93114458476f3E3416Abbe38F",
+      "name": "Staked Frax Ether",
+      "symbol": "sfrxETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sfrxeth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xBE3cA34D0E877A1Fc889BD5231D65477779AFf4e",
+      "assetCaip": "eip155:1/erc20:0xBE3cA34D0E877A1Fc889BD5231D65477779AFf4e",
+      "name": "Karak - USDe",
+      "symbol": "KUSDe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/kusde.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xDe5Bff0755F192C333B126A449FF944Ee2B69681",
+      "assetCaip": "eip155:1/erc20:0xDe5Bff0755F192C333B126A449FF944Ee2B69681",
+      "name": "Karak - Staked USDe",
+      "symbol": "KsUSDe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ksusde.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xe3668873D944E4A949DA05fc8bDE419eFF543882",
+      "assetCaip": "eip155:1/erc20:0xe3668873D944E4A949DA05fc8bDE419eFF543882",
+      "name": "Yearn PRISMA",
+      "symbol": "yPRISMA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yprisma.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc65433845ecD16688eda196497FA9130d6C47Bd8",
+      "assetCaip": "eip155:1/erc20:0xc65433845ecD16688eda196497FA9130d6C47Bd8",
+      "name": "Ethena LRT Vault ENA",
+      "symbol": "rsENA",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rsena.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+      "assetCaip": "eip155:1/erc20:0x657e8C867D8B37dCC18fA4Caead9C45EB088C642",
+      "name": "ether.fi BTC",
+      "symbol": "eBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/ebtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x0a6E7Ba5042B38349e437ec6Db6214AEC7B35676",
+      "assetCaip": "eip155:1/erc20:0x0a6E7Ba5042B38349e437ec6Db6214AEC7B35676",
+      "name": "Swell Governance Token",
+      "symbol": "SWELL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/swell.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xcF8dFdb73e7434b05903B5599fB96174555F4353",
+      "assetCaip": "eip155:1/erc20:0xcF8dFdb73e7434b05903B5599fB96174555F4353",
+      "name": "60GOLD-40WETH",
+      "symbol": "60GOLD-40WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/60gold-40weth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xe24BA27551aBE96Ca401D39761cA2319Ea14e3CB",
+      "assetCaip": "eip155:1/erc20:0xe24BA27551aBE96Ca401D39761cA2319Ea14e3CB",
+      "name": "Yearn-Ajna DAI Vault",
+      "symbol": "yvAjnaDAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yvajnadai.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x503e0BaB6acDAE73eA7fb7cf6Ae5792014dbe935",
+      "assetCaip": "eip155:1/erc20:0x503e0BaB6acDAE73eA7fb7cf6Ae5792014dbe935",
+      "name": "Yearn-Ajna WETH Vault",
+      "symbol": "yvAjnaWETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yvajnaweth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x91603C7fb539f2DA2da93Ba6Bec696A47e46bBA2",
+      "assetCaip": "eip155:1/erc20:0x91603C7fb539f2DA2da93Ba6Bec696A47e46bBA2",
+      "name": "Yearn-Ajna Pool wstETH/WETH Vault",
+      "symbol": "yv-ajna-wsteth-weth",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/yv-ajna-wsteth-weth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xfA1fDbBD71B0aA16162D76914d69cD8CB3Ef92da",
+      "assetCaip": "eip155:1/erc20:0xfA1fDbBD71B0aA16162D76914d69cD8CB3Ef92da",
+      "name": "Aave Ethereum Lido WETH",
+      "symbol": "aEthLidoWETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/aethlidoweth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+      "assetCaip": "eip155:1/erc20:0xc00e94Cb662C3520282E6f5717214004A7f26888",
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/comp.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "assetCaip": "eip155:1/erc20:0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "name": "Aave Token",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/aave.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
+      "assetCaip": "eip155:1/erc20:0xBa3335588D9403515223F109EdC4eB7269a9Ab5D",
+      "name": "Gearbox",
+      "symbol": "GEAR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/gear.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x6DF0E641FC9847c0c6Fde39bE6253045440c14d3",
+      "assetCaip": "eip155:1/erc20:0x6DF0E641FC9847c0c6Fde39bE6253045440c14d3",
+      "name": "Dinero Governance Token",
+      "symbol": "DINERO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/dinero.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x365AccFCa291e7D3914637ABf1F7635dB165Bb09",
+      "assetCaip": "eip155:1/erc20:0x365AccFCa291e7D3914637ABf1F7635dB165Bb09",
+      "name": "FXN Token",
+      "symbol": "FXN",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/fxn.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+      "assetCaip": "eip155:1/erc20:0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+      "name": "Threshold Network Token",
+      "symbol": "T",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/t.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xeFc0CED4B3D536103e76a1c4c74F0385C8F4Bdd3",
+      "assetCaip": "eip155:1/erc20:0xeFc0CED4B3D536103e76a1c4c74F0385C8F4Bdd3",
+      "name": "Pyth Network",
+      "symbol": "PYTH",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/pyth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4da27a545c0c5B758a6BA100e3a049001de870f5",
+      "assetCaip": "eip155:1/erc20:0x4da27a545c0c5B758a6BA100e3a049001de870f5",
+      "name": "Staked Aave",
+      "symbol": "stkAAVE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/stkaave.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xAE5099C39f023C91d3dd55244CAFB36225B0850E",
+      "assetCaip": "eip155:1/erc20:0xAE5099C39f023C91d3dd55244CAFB36225B0850E",
+      "name": "PT Ethena sUSDE 24OCT2024",
+      "symbol": "PT-sUSDE-24OCT2024",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-susde-24oct2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+      "assetCaip": "eip155:1/erc20:0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+      "name": "Graph Token",
+      "symbol": "GRT",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/grt.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x56072C95FAA701256059aa122697B133aDEd9279",
+      "assetCaip": "eip155:1/erc20:0x56072C95FAA701256059aa122697B133aDEd9279",
+      "name": "SKY Governance Token",
+      "symbol": "SKY",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sky.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+      "assetCaip": "eip155:1/erc20:0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+      "name": "Ondo",
+      "symbol": "ONDO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ondo.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+      "assetCaip": "eip155:1/erc20:0xd5F7838F5C461fefF7FE49ea5ebaF7728bB0ADfa",
+      "name": "mETH",
+      "symbol": "mETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/meth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9994E35Db50125E0DF82e4c2dde62496CE330999",
+      "assetCaip": "eip155:1/erc20:0x9994E35Db50125E0DF82e4c2dde62496CE330999",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/morpho.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "assetCaip": "eip155:1/erc20:0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "name": "Morpho Token",
+      "symbol": "MORPHO",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/morpho.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x866A2BF4E572CbcF37D5071A7a58503Bfb36be1b",
+      "assetCaip": "eip155:1/erc20:0x866A2BF4E572CbcF37D5071A7a58503Bfb36be1b",
+      "name": "M by M^0",
+      "symbol": "M",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/m.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x437cc33344a0B27A429f795ff6B469C72698B291",
+      "assetCaip": "eip155:1/erc20:0x437cc33344a0B27A429f795ff6B469C72698B291",
+      "name": "WrappedM by M^0",
+      "symbol": "wM",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/wm.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
+      "assetCaip": "eip155:1/erc20:0xB997B3418935A1Df0F914Ee901ec83927c1509A0",
+      "name": "PT ether.fi eBTC 26DEC2024",
+      "symbol": "PT-EBTC-26DEC2024",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-ebtc-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xEc5a52C685CC3Ad79a6a347aBACe330d69e0b1eD",
+      "assetCaip": "eip155:1/erc20:0xEc5a52C685CC3Ad79a6a347aBACe330d69e0b1eD",
+      "name": "PT Lombard LBTC 27MAR2025",
+      "symbol": "PT-LBTC-27MAR2025",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-lbtc-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+      "assetCaip": "eip155:1/erc20:0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+      "name": "pumpBTC",
+      "symbol": "pumpBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pumpbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+      "assetCaip": "eip155:1/erc20:0x7A56E1C57C7475CCf742a1832B028F0456652F97",
+      "name": "Solv BTC",
+      "symbol": "SolvBTC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/solvbtc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+      "assetCaip": "eip155:1/erc20:0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+      "name": "USD0 Liquid Bond",
+      "symbol": "USD0++",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usd0++.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x332A8ee60EdFf0a11CF3994b1b846BBC27d3DcD6",
+      "assetCaip": "eip155:1/erc20:0x332A8ee60EdFf0a11CF3994b1b846BBC27d3DcD6",
+      "name": "PT Corn Lombard LBTC 26DEC2024",
+      "symbol": "PT-cornLBTC-26DEC2024",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-cornlbtc-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x44A7876cA99460ef3218bf08b5f52E2dbE199566",
+      "assetCaip": "eip155:1/erc20:0x44A7876cA99460ef3218bf08b5f52E2dbE199566",
+      "name": "PT Corn ether.fi eBTC 27MAR2025",
+      "symbol": "PT-corn-eBTC-27MAR2025",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-corn-ebtc-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xa76f0C6e5f286bFF151b891d2A0245077F1Ad74c",
+      "assetCaip": "eip155:1/erc20:0xa76f0C6e5f286bFF151b891d2A0245077F1Ad74c",
+      "name": "PT Corn pumpBTC 26DEC2024",
+      "symbol": "PT-corn-pumpBTC-26DEC2024",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-corn-pumpbtc-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x997Ec6Bf18a30Ef01ed8D9c90718C7726a213527",
+      "assetCaip": "eip155:1/erc20:0x997Ec6Bf18a30Ef01ed8D9c90718C7726a213527",
+      "name": "PT pumpBTC 27MAR2025",
+      "symbol": "PT-pumpBTC-27MAR2025",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-pumpbtc-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x23e479ddcda990E8523494895759bD98cD2fDBF6",
+      "assetCaip": "eip155:1/erc20:0x23e479ddcda990E8523494895759bD98cD2fDBF6",
+      "name": "PT Corn SolvBTC Babylon 26DEC2024",
+      "symbol": "PT-corn-SolvBTC.BBN-26DEC2024",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-corn-solvbtc.bbn-26dec2024.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685",
+      "assetCaip": "eip155:1/erc20:0x5BaE9a5D67d1CA5b09B14c91935f635CFBF3b685",
+      "name": "PT USD0++ 27MAR2025",
+      "symbol": "PT-USD0++-27MAR2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-usd0++-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xf696FE29Ef85E892b5926313897D178288faA07e",
+      "assetCaip": "eip155:1/erc20:0xf696FE29Ef85E892b5926313897D178288faA07e",
+      "name": "PT USD0++ 26JUN2025",
+      "symbol": "PT-USD0++-26JUN2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-usd0++-26jun2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055",
+      "assetCaip": "eip155:1/erc20:0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055",
+      "name": "Wrapped stUSR",
+      "symbol": "wstUSR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
+      "assetCaip": "eip155:1/erc20:0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
+      "name": "Gravity",
+      "symbol": "G",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/g.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xaC4E8D8B3a48C3451d4d0E4a84e6E5Ac52579D05",
+      "assetCaip": "eip155:1/erc20:0xaC4E8D8B3a48C3451d4d0E4a84e6E5Ac52579D05",
+      "name": "Swaap USDC-USDT Safeguard",
+      "symbol": "s-USDC-USDT-Sa",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/s-usdc-usdt-sa.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+      "assetCaip": "eip155:1/erc20:0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+      "name": "Resolv USD",
+      "symbol": "USR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x3eE841F47947FEFbE510366E4bbb49e145484195",
+      "assetCaip": "eip155:1/erc20:0x3eE841F47947FEFbE510366E4bbb49e145484195",
+      "name": "USR/USDC",
+      "symbol": "USRUSDC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usrusdc.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x808507121B80c02388fAd14726482e061B8da827",
+      "assetCaip": "eip155:1/erc20:0x808507121B80c02388fAd14726482e061B8da827",
+      "name": "Pendle",
+      "symbol": "PENDLE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pendle.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x48C3399719B582dD63eB5AADf12A40B4C3f52FA2",
+      "assetCaip": "eip155:1/erc20:0x48C3399719B582dD63eB5AADf12A40B4C3f52FA2",
+      "name": "StakeWise",
+      "symbol": "SWISE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/swise.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc55126051B22eBb829D00368f4B12Bde432de5Da",
+      "assetCaip": "eip155:1/erc20:0xc55126051B22eBb829D00368f4B12Bde432de5Da",
+      "name": "BTRFLY",
+      "symbol": "BTRFLY",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/btrfly.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x31429d1856aD1377A8A0079410B297e1a9e214c2",
+      "assetCaip": "eip155:1/erc20:0x31429d1856aD1377A8A0079410B297e1a9e214c2",
+      "name": "ANGLE",
+      "symbol": "ANGLE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/angle.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+      "assetCaip": "eip155:1/erc20:0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rsr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
+      "assetCaip": "eip155:1/erc20:0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
+      "name": "OriginToken",
+      "symbol": "OGN",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ogn.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "assetCaip": "eip155:1/erc20:0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+      "name": "Matrixdock Gold",
+      "symbol": "XAUM",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/xaum.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xf3e621395fc714B90dA337AA9108771597b4E696",
+      "assetCaip": "eip155:1/erc20:0xf3e621395fc714B90dA337AA9108771597b4E696",
+      "name": "Reward EUL",
+      "symbol": "rEUL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eul.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5241e34A1eA2BF6F297bAf158e668e23244464a7",
+      "assetCaip": "eip155:1/erc20:0x5241e34A1eA2BF6F297bAf158e668e23244464a7",
+      "name": "Reward EUL",
+      "symbol": "rEUL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eul.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8d652c6d4A8F3Db96Cd866C1a9220B1447F29898",
+      "assetCaip": "eip155:1/erc20:0x8d652c6d4A8F3Db96Cd866C1a9220B1447F29898",
+      "name": "Angle Merkl",
+      "symbol": "aglaMerkl",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/aglamerkl.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+      "assetCaip": "eip155:1/erc20:0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+      "name": "Staked ETH",
+      "symbol": "osETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/oseth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "assetCaip": "eip155:1/erc20:0xba100000625a3754423978a60c9317c58a424e3D",
+      "name": "Balancer",
+      "symbol": "BAL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/bal.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "assetCaip": "eip155:1/erc20:0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+      "name": "Ethereum Name Service",
+      "symbol": "ENS",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ens.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "assetCaip": "eip155:1/erc20:0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "name": "Synthetix Network Token",
+      "symbol": "SNX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/snx.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "assetCaip": "eip155:1/erc20:0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+      "name": "Rocket Pool Protocol",
+      "symbol": "RPL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rpl.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+      "assetCaip": "eip155:1/erc20:0x111111111117dC0aa78b770fA6A738034120C302",
+      "name": "1INCH Token",
+      "symbol": "1INCH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/1inch.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "assetCaip": "eip155:1/erc20:0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+      "name": "First Digital USD",
+      "symbol": "FDUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/fdusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+      "assetCaip": "eip155:1/erc20:0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+      "name": "RLUSD",
+      "symbol": "RLUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rlusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x15700B564Ca08D9439C58cA5053166E8317aa138",
+      "assetCaip": "eip155:1/erc20:0x15700B564Ca08D9439C58cA5053166E8317aa138",
+      "name": "deUSD",
+      "symbol": "deUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/deusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x5C5b196aBE0d54485975D1Ec29617D42D9198326",
+      "assetCaip": "eip155:1/erc20:0x5C5b196aBE0d54485975D1Ec29617D42D9198326",
+      "name": "Staked deUSD",
+      "symbol": "sdeUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sdeusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+      "assetCaip": "eip155:1/erc20:0x2a8c22E3b10036f3AEF5875d04f8441d4188b656",
+      "name": "Midas Basis Trading Token",
+      "symbol": "mBASIS",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/mbasis.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x61439b9575278054D69c9176d88FaFaf8319E4b7",
+      "assetCaip": "eip155:1/erc20:0x61439b9575278054D69c9176d88FaFaf8319E4b7",
+      "name": "PT USD0++ 30JAN2025",
+      "symbol": "PT-USD0++-30JAN2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-usd0++-30jan2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
+      "assetCaip": "eip155:1/erc20:0xb7de5dFCb74d25c2f21841fbd6230355C50d9308",
+      "name": "PT Ethena sUSDE 29MAY2025",
+      "symbol": "PT-sUSDE-29MAY2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-susde-29may2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x8A47b431A7D947c6a3ED6E42d501803615a97EAa",
+      "assetCaip": "eip155:1/erc20:0x8A47b431A7D947c6a3ED6E42d501803615a97EAa",
+      "name": "PT Ethena USDe 27MAR2025",
+      "symbol": "PT-USDe-27MAR2025",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pt-usde-27mar2025.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD",
+      "assetCaip": "eip155:1/erc20:0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD",
+      "name": "Lift Dollar",
+      "symbol": "USDL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdl.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+      "assetCaip": "eip155:1/erc20:0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+      "name": "Stader",
+      "symbol": "SD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC035a7cf15375cE2706766804551791aD035E0C2",
+      "assetCaip": "eip155:1/erc20:0xC035a7cf15375cE2706766804551791aD035E0C2",
+      "name": "Aave Ethereum Lido wstETH",
+      "symbol": "aEthLidowstETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/aethlidowsteth.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259",
+      "assetCaip": "eip155:1/erc20:0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259",
+      "name": "Aave Ethereum USDS",
+      "symbol": "aEthUSDS",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usds.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+      "assetCaip": "eip155:1/erc20:0x4956b52aE2fF65D74CA2d61207523288e4528f96",
+      "name": "Resolv Liquidity Provider Token",
+      "symbol": "RLP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rlp.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
+      "assetCaip": "eip155:1/erc20:0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
+      "name": "Wrapped USDL",
+      "symbol": "wUSDL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/wusdl.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "assetCaip": "eip155:1/erc20:0x657d9ABA1DBb59e53f9F3eCAA878447dCfC96dCb",
+      "name": "ynETH MAX",
+      "symbol": "ynETHx",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ynethx.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xc83e27f270cce0A3A3A29521173a83F402c1768b",
+      "assetCaip": "eip155:1/erc20:0xc83e27f270cce0A3A3A29521173a83F402c1768b",
+      "name": "Quantoz USDQ",
+      "symbol": "USDQ",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdq.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB",
+      "assetCaip": "eip155:1/erc20:0xB58E61C3098d85632Df34EecfB899A1Ed80921cB",
+      "name": "Frankencoin",
+      "symbol": "ZCHF",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/zchf.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+      "assetCaip": "eip155:1/erc20:0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+      "name": "Syrup Token",
+      "symbol": "SYRUP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/syrup.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
+      "assetCaip": "eip155:1/erc20:0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
+      "name": "Ethereal Pre-deposit Vault",
+      "symbol": "eUSDe",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eusde.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x05BE1d4c307C19450A6Fd7cE7307cE72a3829A60",
+      "assetCaip": "eip155:1/erc20:0x05BE1d4c307C19450A6Fd7cE7307cE72a3829A60",
+      "name": "International Meme Fund",
+      "symbol": "IMF",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/imf.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+      "assetCaip": "eip155:1/erc20:0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+      "name": "USUAL",
+      "symbol": "USUAL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usual.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x7C1156E515aA1A2E851674120074968C905aAF37",
+      "assetCaip": "eip155:1/erc20:0x7C1156E515aA1A2E851674120074968C905aAF37",
+      "name": "Level USD",
+      "symbol": "lvlUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/lvlusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7",
+      "assetCaip": "eip155:1/erc20:0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7",
+      "name": "Convex CRV",
+      "symbol": "cvxCRV",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/cvxcrv.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+      "assetCaip": "eip155:1/erc20:0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+      "name": "Convex Token",
+      "symbol": "CVX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/cvx.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+      "assetCaip": "eip155:1/erc20:0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ape.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+      "assetCaip": "eip155:1/erc20:0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+      "name": "Reservoir Stablecoin",
+      "symbol": "rUSD",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/rusd.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0x194f360D130F2393a5E9F3117A6a1B78aBEa1624",
+      "assetCaip": "eip155:1/erc20:0x194f360D130F2393a5E9F3117A6a1B78aBEa1624",
+      "name": "SummerToken",
+      "symbol": "SUMR",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/sumr.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    },
+    {
+      "address": "0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+      "assetCaip": "eip155:1/erc20:0xdA67B4284609d2d48e5d10cfAc411572727dc1eD",
+      "name": "USN",
+      "symbol": "USN",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/usn.png",
+      "network": {
+        "name": "mainnet",
+        "chainId": 1,
+        "networkCaip": "eip155:1"
+      }
+    }
+  ]
+}

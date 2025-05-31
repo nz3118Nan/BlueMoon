@@ -1,0 +1,525 @@
+{
+  "itemsOnPage": 40,
+  "data": [
+    {
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "assetCaip": "eip155:137/erc20:0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "assetCaip": "eip155:137/erc20:0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "assetCaip": "eip155:137/erc20:0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "name": "(PoS) Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/dai.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "assetCaip": "eip155:137/erc20:0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "name": "USD Coin (PoS)",
+      "symbol": "USDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "assetCaip": "eip155:137/erc20:0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "name": "(PoS) Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdt.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "assetCaip": "eip155:137/erc20:0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "name": "(PoS) Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "assetLogo": "https://images.vaults.fyi/tokens/wbtc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "assetCaip": "eip155:137/erc20:0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/link.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
+      "assetCaip": "eip155:137/erc20:0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE",
+      "name": "Aave Polygon DAI",
+      "symbol": "aPolDAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/apoldai.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+      "assetCaip": "eip155:137/erc20:0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171",
+      "name": "Curve.fi amDAI/amUSDC/amUSDT",
+      "symbol": "am3CRV",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/am3crv.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+      "assetCaip": "eip155:137/erc20:0x03b54A6e9a984069379fae1a4fC4dBAE93B3bCCD",
+      "name": "Wrapped liquid staked Ether 2.0 (PoS)",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/wsteth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "assetCaip": "eip155:137/erc20:0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "name": "Wrapped Polygon Ecosystem Token",
+      "symbol": "WPOL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/matic.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+      "assetCaip": "eip155:137/erc20:0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+      "name": "STASIS EURS Token (PoS)",
+      "symbol": "EURS",
+      "decimals": 2,
+      "assetLogo": "https://images.vaults.fyi/tokens/eurs.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x0000000000000000000000000000000000001010",
+      "assetCaip": "eip155:137/erc20:0x0000000000000000000000000000000000001010",
+      "name": "Polygon Ecosystem Token",
+      "symbol": "POL",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/pol.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x02203f2351E7aC6aB5051205172D3f772db7D814",
+      "assetCaip": "eip155:137/erc20:0x02203f2351E7aC6aB5051205172D3f772db7D814",
+      "name": "awMATIC-WETH",
+      "symbol": "awMATIC-WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awmatic-weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x81Cec323BF8C4164c66ec066F53cc053A535f03D",
+      "assetCaip": "eip155:137/erc20:0x81Cec323BF8C4164c66ec066F53cc053A535f03D",
+      "name": "awMATIC-WETH",
+      "symbol": "awMATIC-WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awmatic-weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x4B9e26a02121a1C541403a611b542965Bd4b68Ce",
+      "assetCaip": "eip155:137/erc20:0x4B9e26a02121a1C541403a611b542965Bd4b68Ce",
+      "name": "aWBTC-WETH",
+      "symbol": "aWBTC-WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awbtc-weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x6077177d4c41E114780D9901C9b5c784841C523f",
+      "assetCaip": "eip155:137/erc20:0x6077177d4c41E114780D9901C9b5c784841C523f",
+      "name": "aUSDC-WETH",
+      "symbol": "aUSDC-WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausdc-weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x3Cc20A6795c4b57d9817399F68E83e71C8626580",
+      "assetCaip": "eip155:137/erc20:0x3Cc20A6795c4b57d9817399F68E83e71C8626580",
+      "name": "aUSDC-WETH",
+      "symbol": "aUSDC-WETH",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausdc-weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x04d521E2c414E6d898c6F2599FdD863Edf49e247",
+      "assetCaip": "eip155:137/erc20:0x04d521E2c414E6d898c6F2599FdD863Edf49e247",
+      "name": "awMATIC-USDC",
+      "symbol": "awMATIC-USDC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awmatic-usdc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x3f35705479d9d77c619b2aAC9dd7a64e57151506",
+      "assetCaip": "eip155:137/erc20:0x3f35705479d9d77c619b2aAC9dd7a64e57151506",
+      "name": "aWBTC-USDC",
+      "symbol": "aWBTC-USDC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awbtc-usdc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x795f8c9B0A0Da9Cd8dea65Fc10f9B57AbC532E58",
+      "assetCaip": "eip155:137/erc20:0x795f8c9B0A0Da9Cd8dea65Fc10f9B57AbC532E58",
+      "name": "aUSDC-USDT",
+      "symbol": "aUSDC-USDT",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausdc-usdt.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x9E31214Db6931727B7d63a0D2b6236DB455c0965",
+      "assetCaip": "eip155:137/erc20:0x9E31214Db6931727B7d63a0D2b6236DB455c0965",
+      "name": "aUSDC-DAI",
+      "symbol": "aUSDC-DAI",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ausdc-dai.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x8dd3BF71eF18dd88869d128BDE058C9d8c270176",
+      "assetCaip": "eip155:137/erc20:0x8dd3BF71eF18dd88869d128BDE058C9d8c270176",
+      "name": "aWMATIC-MATICX",
+      "symbol": "aWMATIC-MATICX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/awmatic-maticx.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xF54a15F6da443041Bb075959EA66EE47655DDFcA",
+      "assetCaip": "eip155:137/erc20:0xF54a15F6da443041Bb075959EA66EE47655DDFcA",
+      "name": "Yearn-Ajna USDC Vault ",
+      "symbol": "yvAjnaUSDC",
+      "decimals": 6,
+      "assetLogo": "https://images.vaults.fyi/tokens/yvajnausdc.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xf0ad209e2e969EAAA8C882aac71f02D8a047d5c2",
+      "assetCaip": "eip155:137/erc20:0xf0ad209e2e969EAAA8C882aac71f02D8a047d5c2",
+      "name": "Gyroscope ECLP WMATIC/stMATIC",
+      "symbol": "ECLP-WMATIC-stMATIC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/eclp-wmatic-stmatic.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x40379a439D4F6795B6fc9aa5687dB461677A2dBa",
+      "assetCaip": "eip155:137/erc20:0x40379a439D4F6795B6fc9aa5687dB461677A2dBa",
+      "name": "Real USD",
+      "symbol": "USDR",
+      "decimals": 9,
+      "assetLogo": "https://images.vaults.fyi/tokens/usdr.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xcd78A20c597E367A4e478a2411cEB790604D7c8F",
+      "assetCaip": "eip155:137/erc20:0xcd78A20c597E367A4e478a2411cEB790604D7c8F",
+      "name": "Balancer maticX-WMATIC Stable Pool",
+      "symbol": "maticX-WMATIC-BPT",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/maticx-wmatic-bpt.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xf3312968c7D768C19107731100Ece7d4780b47B2",
+      "assetCaip": "eip155:137/erc20:0xf3312968c7D768C19107731100Ece7d4780b47B2",
+      "name": "20WMATIC-80SPHERE",
+      "symbol": "20WMATIC-80SPHERE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/20wmatic-80sphere.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xb204BF10bc3a5435017D3db247f56dA601dFe08A",
+      "assetCaip": "eip155:137/erc20:0xb204BF10bc3a5435017D3db247f56dA601dFe08A",
+      "name": "20USDC-80THX",
+      "symbol": "20USDC-80THX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/20usdc-80thx.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+      "assetCaip": "eip155:137/erc20:0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c",
+      "name": "(PoS) Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/comp.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+      "assetCaip": "eip155:137/erc20:0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+      "name": "Hop",
+      "symbol": "HOP",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/hop.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "assetCaip": "eip155:137/erc20:0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+      "name": "StargateToken",
+      "symbol": "STG",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/stg.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x61fFE097137d543f019F5257E1a1Ff7A6C5F0b68",
+      "assetCaip": "eip155:137/erc20:0x61fFE097137d543f019F5257E1a1Ff7A6C5F0b68",
+      "name": "STARV4 by StarSeeds Protocol",
+      "symbol": "STARV4",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/starv4.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x900F717EA076E1E7a484ad9DD2dB81CEEc60eBF1",
+      "assetCaip": "eip155:137/erc20:0x900F717EA076E1E7a484ad9DD2dB81CEEc60eBF1",
+      "name": "ANGLE",
+      "symbol": "ANGLE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/angle.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+      "assetCaip": "eip155:137/erc20:0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6",
+      "name": "Liquid Staking Matic (PoS)",
+      "symbol": "MaticX",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/maticx.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "assetCaip": "eip155:137/erc20:0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "name": "Aave (PoS)",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/aave.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+      "assetCaip": "eip155:137/erc20:0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4",
+      "name": "Staked MATIC (PoS)",
+      "symbol": "stMATIC",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/stmatic.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+      "assetCaip": "eip155:137/erc20:0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+      "name": "Aavegotchi GHST Token (PoS)",
+      "symbol": "GHST",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/ghst.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x2F54Ad4db8555c14bfb450D1965ff973467d8173",
+      "assetCaip": "eip155:137/erc20:0x2F54Ad4db8555c14bfb450D1965ff973467d8173",
+      "name": "w5weth",
+      "symbol": "w5weth",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/w5weth.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    },
+    {
+      "address": "0x89C31867c878E4268C65de3CDf8Ea201310c5851",
+      "assetCaip": "eip155:137/erc20:0x89C31867c878E4268C65de3CDf8Ea201310c5851",
+      "name": "Frankencoin",
+      "symbol": "ZCHF",
+      "decimals": 18,
+      "assetLogo": "https://images.vaults.fyi/tokens/zchf.png",
+      "network": {
+        "name": "polygon",
+        "chainId": 137,
+        "networkCaip": "eip155:137"
+      }
+    }
+  ]
+}

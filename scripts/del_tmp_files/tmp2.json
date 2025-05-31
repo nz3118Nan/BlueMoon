@@ -1,0 +1,4370 @@
+{
+  "data": [
+      {
+          "address": "0x7077eF67fE49fFb1260b893f2CD8475eEb72bbbb",
+          "chainId": 1,
+          "name": "USDC AeraVault Strategy",
+          "description": "",
+          "protocol": "yearn",
+          "numberOfHolders": "8",
+          "tvlUsd": "40283480554762",
+          "tvlNative": "40281959105166836610",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 53.94020028287945,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 80.16300070719862
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Yield Aggregator"
+          ]
+      },
+      {
+          "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+          "chainId": 1,
+          "name": "Lido stETH",
+          "description": "stETH earns rewards generated from staking on the Ethereum network. stETH is a \"liquid staking\" token that represents ETH staked through the Lido protocol, including accrued rewards earned through staking.",
+          "protocol": "lido",
+          "numberOfHolders": "513268",
+          "tvlUsd": "16754643803",
+          "tvlNative": "9248789050099770438984160",
+          "token": {
+              "name": "Ether",
+              "symbol": "ETH",
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 273,
+                  "7day": 288,
+                  "30day": 306
+              },
+              "total": {
+                  "1day": 273,
+                  "7day": 288,
+                  "30day": 306
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 100,
+              "holderScore": 100,
+              "networkScore": 100,
+              "vaultTvlScore": 100,
+              "protocolTvlScore": 100
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Liquid Staking"
+          ]
+      },
+      {
+          "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+          "chainId": 1,
+          "name": "Lido wstETH",
+          "description": "",
+          "protocol": "lido",
+          "numberOfHolders": "19525",
+          "tvlUsd": "7626537012",
+          "tvlNative": "4209951153600563185902379",
+          "token": {
+              "name": "Ether",
+              "symbol": "ETH",
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 273,
+                  "7day": 288,
+                  "30day": 306
+              },
+              "total": {
+                  "1day": 273,
+                  "7day": 288,
+                  "30day": 306
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 37.87121749313125,
+              "holderScore": 85.80811662087498,
+              "networkScore": 100,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 0
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": []
+      },
+      {
+          "address": "0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8",
+          "chainId": 1,
+          "name": "Aave v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "28799",
+          "tvlUsd": "4397141626",
+          "tvlNative": "2427281403679475170008601",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 201,
+                  "7day": 204,
+                  "30day": 219
+              },
+              "total": {
+                  "1day": 201,
+                  "7day": 204,
+                  "30day": 219
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 96.06845913761673,
+              "holderScore": 89.1853064440298,
+              "networkScore": 100,
+              "vaultTvlScore": 93.21840126208588,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8",
+          "chainId": 1,
+          "name": "Aave v3 WBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "5965",
+          "tvlUsd": "3967963480",
+          "tvlNative": "4183772276455",
+          "token": {
+              "name": "Wrapped BTC",
+              "symbol": "WBTC",
+              "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 3,
+                  "7day": 3,
+                  "30day": 3
+              },
+              "total": {
+                  "1day": 3,
+                  "7day": 3,
+                  "30day": 3
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 84.41567635276934,
+              "holderScore": 75.49829125222814,
+              "networkScore": 100,
+              "vaultTvlScore": 92.09474873170014,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a",
+          "chainId": 1,
+          "name": "Aave v3 USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "5748",
+          "tvlUsd": "3798853048",
+          "tvlNative": "3797585908019182",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 205,
+                  "7day": 248,
+                  "30day": 234
+              },
+              "total": {
+                  "1day": 205,
+                  "7day": 248,
+                  "30day": 234
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 84.21057552310212,
+              "holderScore": 75.17586401277535,
+              "networkScore": 100,
+              "vaultTvlScore": 91.31106501295366,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x0B925eD163218f6662a35e0f0371Ac234f9E9371",
+          "chainId": 1,
+          "name": "Aave v3 wstETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "2885",
+          "tvlUsd": "3065981453",
+          "tvlNative": "1411014230888036348538789",
+          "token": {
+              "name": "Wrapped liquid staked Ether 2.0",
+              "symbol": "wstETH",
+              "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 8,
+                  "7day": 8,
+                  "30day": 10
+              },
+              "total": {
+                  "1day": 8,
+                  "7day": 8,
+                  "30day": 10
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 79.88704795282759,
+              "holderScore": 69.17335796478368,
+              "networkScore": 100,
+              "vaultTvlScore": 89.82030669757476,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xBdfa7b7893081B35Fb54027489e2Bc7A38275129",
+          "chainId": 1,
+          "name": "Aave v3 weETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "717",
+          "tvlUsd": "2929686481",
+          "tvlNative": "1517106026197918647668889",
+          "token": {
+              "name": "Wrapped eETH",
+              "symbol": "weETH",
+              "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 78.07780680002631,
+              "holderScore": 56.988883400412725,
+              "networkScore": 100,
+              "vaultTvlScore": 89.91245685684657,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD",
+          "chainId": 1,
+          "name": "Savings USDS",
+          "description": "Sky protocol pays yield to users who deposit USDS into the Sky Savings Rate (SSR) module. SSR yield is funded by the Sky protocol's excess reserves, generated by fees paid by overcollateralized borrowers on Sky who borrow through collateralized debt positions (\"CDPs\").",
+          "protocol": "sky",
+          "numberOfHolders": "3405",
+          "tvlUsd": "2656783671",
+          "tvlNative": "2657248928975031123242448798",
+          "token": {
+              "name": "USDS Stablecoin",
+              "symbol": "USDS",
+              "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              },
+              "total": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 76.01947413224607,
+              "holderScore": 70.6174091026455,
+              "networkScore": 100,
+              "vaultTvlScore": 88.21143794474877,
+              "protocolTvlScore": 88.21143794474877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "CDP",
+              "RWA"
+          ]
+      },
+      {
+          "address": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+          "chainId": 1,
+          "name": "Aave v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "9214",
+          "tvlUsd": "2403963314",
+          "tvlNative": "2403872520571358",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 286,
+                  "7day": 250,
+                  "30day": 276
+              },
+              "total": {
+                  "1day": 286,
+                  "7day": 250,
+                  "30day": 276
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 91.03105974562573,
+              "holderScore": 79.28022099352543,
+              "networkScore": 100,
+              "vaultTvlScore": 91.08521839000915,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+          "chainId": 1,
+          "name": "Ethena Staked USDe",
+          "description": "USDe is a delta-neutral synthetic dollar, derived from staked Ethereum returns along with the funding and basis spread available in perpetual and futures markets. By staking USDe (as sUSDe), users receive a portion of the protocol's generated yield.",
+          "protocol": "ethena",
+          "numberOfHolders": "9667",
+          "tvlUsd": "2105111904",
+          "tvlNative": "2103363735429806800169544276",
+          "token": {
+              "name": "USDe",
+              "symbol": "USDe",
+              "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 449,
+                  "7day": 454,
+                  "30day": 534
+              },
+              "total": {
+                  "1day": 449,
+                  "7day": 454,
+                  "30day": 534
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 79.05911788054509,
+              "holderScore": 79.69753704737774,
+              "networkScore": 100,
+              "vaultTvlScore": 91.00747887239739,
+              "protocolTvlScore": 91.00747887239739
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Synthetic"
+          ]
+      },
+      {
+          "address": "0x5c647cE0Ae10658ec44FA4E11A51c96e94efd1Dd",
+          "chainId": 1,
+          "name": "Aave v3 cbBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "740",
+          "tvlUsd": "1414599724",
+          "tvlNative": "1516274287167",
+          "token": {
+              "name": "Coinbase Wrapped BTC",
+              "symbol": "cbBTC",
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 1,
+                  "7day": 1,
+                  "30day": 1
+              },
+              "total": {
+                  "1day": 1,
+                  "7day": 1,
+                  "30day": 1
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 80.27617112272199,
+              "holderScore": 57.26695474279234,
+              "networkScore": 100,
+              "vaultTvlScore": 85.07072496354027,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x2D62109243b87C4bA3EE7bA1D91B0dD0A074d7b1",
+          "chainId": 1,
+          "name": "Aave v3 rsETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "75",
+          "tvlUsd": "690032597",
+          "tvlNative": "370549569210537770529598",
+          "token": {
+              "name": "rsETH",
+              "symbol": "rsETH",
+              "address": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 74.10054946687299,
+              "holderScore": 36.258582150635505,
+              "networkScore": 100,
+              "vaultTvlScore": 85.57389612841293,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xC035a7cf15375cE2706766804551791aD035E0C2",
+          "chainId": 1,
+          "name": "Aave v3 Prime wstETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "324",
+          "tvlUsd": "511660661",
+          "tvlNative": "238718801068117598734283",
+          "token": {
+              "name": "Wrapped liquid staked Ether 2.0",
+              "symbol": "wstETH",
+              "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 29,
+                  "7day": 31,
+                  "30day": 27
+              },
+              "total": {
+                  "1day": 29,
+                  "7day": 31,
+                  "30day": 27
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 75.9642686056578,
+              "holderScore": 49.939026836159776,
+              "networkScore": 100,
+              "vaultTvlScore": 84.63215830819374,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xc3d688B66703497DAA19211EEdff47f25384cdc3",
+          "chainId": 1,
+          "name": "Compound v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "3110",
+          "tvlUsd": "509219044",
+          "tvlNative": "509199811555089",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 387,
+                  "7day": 376,
+                  "30day": 371
+              },
+              "total": {
+                  "1day": 408,
+                  "7day": 397,
+                  "30day": 391
+              },
+              "rewards": {
+                  "1day": 21,
+                  "7day": 21,
+                  "30day": 20
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 85.85780680416744,
+              "holderScore": 69.82784054715889,
+              "networkScore": 100,
+              "vaultTvlScore": 88.24678563949337,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+          "chainId": 1,
+          "name": "Savings Dai (sDAI)",
+          "description": "MakerDAO pays yield to users who deposit Dai into the Dai Savings Rate (DSR) module. DSR yield is funded by the MakerDAO protocol's excess reserves, generated by fees paid by overcollateralized borrowers on the Maker protocol who borrow through collateralized debt positions (\"CDPs\").",
+          "protocol": "spark",
+          "numberOfHolders": "2880",
+          "tvlUsd": "508683949",
+          "tvlNative": "508544974188103393030755554",
+          "token": {
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 325,
+                  "7day": 326,
+                  "30day": 345
+              },
+              "total": {
+                  "1day": 325,
+                  "7day": 326,
+                  "30day": 345
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 86.05462137184095,
+              "holderScore": 69.15823878759379,
+              "networkScore": 100,
+              "vaultTvlScore": 89.67647592283647,
+              "protocolTvlScore": 89.67647592283647
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "CDP",
+              "RWA"
+          ]
+      },
+      {
+          "address": "0x4F5923Fc5FD4a93352581b38B7cD26943012DECF",
+          "chainId": 1,
+          "name": "Aave v3 USDe",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "149",
+          "tvlUsd": "416732140",
+          "tvlNative": "416157710011307423321095200",
+          "token": {
+              "name": "USDe",
+              "symbol": "USDe",
+              "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 21,
+                  "7day": 15,
+                  "30day": 19
+              },
+              "total": {
+                  "1day": 21,
+                  "7day": 15,
+                  "30day": 19
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 73.59996217456754,
+              "holderScore": 42.86066838237118,
+              "networkScore": 100,
+              "vaultTvlScore": 78.11939499308384,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xfA1fDbBD71B0aA16162D76914d69cD8CB3Ef92da",
+          "chainId": 1,
+          "name": "Aave v3 Prime WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool. \n\nThis WETH market currently receives rewards in the form of aWETH, funded by the ACI \"Ahab\" program as outlined [here](https://app.aave.com/governance/v3/proposal/?proposalId=133).",
+          "protocol": "aave",
+          "numberOfHolders": "401",
+          "tvlUsd": "393525437",
+          "tvlNative": "220030499352164843208318",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 197,
+                  "7day": 190,
+                  "30day": 198
+              },
+              "total": {
+                  "1day": 197,
+                  "7day": 190,
+                  "30day": 198
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 88.84020676580762,
+              "holderScore": 51.84398557306332,
+              "networkScore": 100,
+              "vaultTvlScore": 85.08313005626519,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x73e65DBD630f90604062f6E02fAb9138e713edD9",
+          "chainId": 1,
+          "name": "Spark DAI Vault",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "1",
+          "tvlUsd": "375348813",
+          "tvlNative": "375253997874745050454049511",
+          "token": {
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 429,
+                  "7day": 469,
+                  "30day": 525
+              },
+              "total": {
+                  "1day": 499,
+                  "7day": 532,
+                  "30day": 601
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 63,
+                  "30day": 76
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 57.07048315121773,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x32a6268f9Ba3642Dda7892aDd74f1D34469A4259",
+          "chainId": 1,
+          "name": "Aave v3 USDS",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "381",
+          "tvlUsd": "361022760",
+          "tvlNative": "361085983229053257645509271",
+          "token": {
+              "name": "USDS Stablecoin",
+              "symbol": "USDS",
+              "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 2,
+                  "7day": 3,
+                  "30day": 6
+              },
+              "total": {
+                  "1day": 460,
+                  "7day": 490,
+                  "30day": 503
+              },
+              "rewards": {
+                  "1day": 458,
+                  "7day": 487,
+                  "30day": 497
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 75.75447941695879,
+              "holderScore": 51.387924655149185,
+              "networkScore": 100,
+              "vaultTvlScore": 82.49653900045664,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x927709711794F3De5DdBF1D176bEE2D55Ba13c21",
+          "chainId": 1,
+          "name": "Aave Ethereum osETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "160",
+          "tvlUsd": "347026039",
+          "tvlNative": "173446073120506427094483",
+          "token": {
+              "name": "Staked ETH",
+              "symbol": "osETH",
+              "address": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 74.10941107999614,
+              "holderScore": 43.52220330587701,
+              "networkScore": 100,
+              "vaultTvlScore": 80.17048832759751,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x74e5664394998f13B07aF42446380ACef637969f",
+          "chainId": 1,
+          "name": "Aave v3 Prime ezETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "37",
+          "tvlUsd": "335455188",
+          "tvlNative": "179280926035336767052319",
+          "token": {
+              "name": "Renzo Restaked ETH",
+              "symbol": "ezETH",
+              "address": "0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 72.43597411749246,
+              "holderScore": 28.627524001647956,
+              "networkScore": 100,
+              "vaultTvlScore": 82.9743129932509,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x078f358208685046a11C85e8ad32895DED33A249",
+          "chainId": 42161,
+          "name": "Aave v3 WBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "9139",
+          "tvlUsd": "272020544",
+          "tvlNative": "286815142586",
+          "token": {
+              "name": "Wrapped BTC",
+              "symbol": "WBTC",
+              "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 2,
+                  "7day": 5,
+                  "30day": 5
+              },
+              "total": {
+                  "1day": 2,
+                  "7day": 5,
+                  "30day": 5
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 78.5445450797945,
+              "holderScore": 79.20915231769895,
+              "networkScore": 60,
+              "vaultTvlScore": 84.95594656772289,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xF037eeEBA7729c39114B9711c75FbccCa4A343C8",
+          "chainId": 1,
+          "name": "USL USD0++ vault",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0xF037eeEBA7729c39114B9711c75FbccCa4A343C8?chainId=1).\n\nDescription from vault manager:\n\nThe Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.\n\n[See more](https://app.euler.finance/vault/0xF037eeEBA7729c39114B9711c75FbccCa4A343C8?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "287",
+          "tvlUsd": "259864612",
+          "tvlNative": "269595707491763264501107721",
+          "token": {
+              "name": "USD0 Liquid Bond",
+              "symbol": "USD0++",
+              "address": "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 68.6663000919751,
+              "holderScore": 48.850019794594665,
+              "networkScore": 100,
+              "vaultTvlScore": 78.07008195435016,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+          "chainId": 1,
+          "name": "Syrup USDC",
+          "description": "Lenders earn yield from interest paid by borrowers on the Maple Finance platform. Maple Finance facilitates overcollateralized offchain loans to institutional borrowers. Interest paid by these borrowers is distributed to lenders who have supplied assets through Syrup.",
+          "protocol": "syrup",
+          "numberOfHolders": "677",
+          "tvlUsd": "248745375",
+          "tvlNative": "248735980591069",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 671,
+                  "7day": 690,
+                  "30day": 678
+              },
+              "total": {
+                  "1day": 671,
+                  "7day": 690,
+                  "30day": 678
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 78.43874326683549,
+              "holderScore": 56.48300740771021,
+              "networkScore": 100,
+              "vaultTvlScore": 79.65205725742047,
+              "protocolTvlScore": 80.40220176048715
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": []
+      },
+      {
+          "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+          "chainId": 42161,
+          "name": "Aave v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "115653",
+          "tvlUsd": "242181524",
+          "tvlNative": "133687463458341388711329",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 177,
+                  "7day": 177,
+                  "30day": 184
+              },
+              "total": {
+                  "1day": 177,
+                  "7day": 177,
+                  "30day": 184
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 91.23983461760209,
+              "holderScore": 100,
+              "networkScore": 60,
+              "vaultTvlScore": 85.96425849503501,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xd001f0a15D272542687b2677BA627f48A4333b5d",
+          "chainId": 1,
+          "name": "USL USD0 vault",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0xd001f0a15D272542687b2677BA627f48A4333b5d?chainId=1).\n\nDescription from vault manager:\n\nThe Usual Stability Loan enables users to leverage their USD0++ to arbitrage when it depegs, by borrowing USD0 at a fixed interest rate.\n\n[See more](https://app.euler.finance/vault/0xd001f0a15D272542687b2677BA627f48A4333b5d?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "2",
+          "tvlUsd": "227378735",
+          "tvlNative": "227429923539383257663225257",
+          "token": {
+              "name": "Usual USD",
+              "symbol": "USD0",
+              "address": "0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 455,
+                  "7day": 442,
+                  "30day": 431
+              },
+              "total": {
+                  "1day": 455,
+                  "7day": 442,
+                  "30day": 431
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 61.302312139794694,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 77.88765703939413,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xd63070114470f685b75B74D60EEc7c1113d33a3D",
+          "chainId": 1,
+          "name": "MEV Capital Usual USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xd63070114470f685b75B74D60EEc7c1113d33a3D&network=mainnet).\n\nDescription from vault manager:\nThe Usual Boosted USDC provides a set of liquid collateral markets with an optimized risk-adjusted return through an active rebalancing strategy.\n\n[See more](https://app.morpho.org/vault?vault=0xd63070114470f685b75B74D60EEc7c1113d33a3D&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "1430",
+          "tvlUsd": "217058864",
+          "tvlNative": "217050666178420",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 481,
+                  "7day": 515,
+                  "30day": 523
+              },
+              "total": {
+                  "1day": 560,
+                  "7day": 592,
+                  "30day": 599
+              },
+              "rewards": {
+                  "1day": 79,
+                  "7day": 77,
+                  "30day": 76
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 83.03620744309407,
+              "holderScore": 63.04631463963586,
+              "networkScore": 100,
+              "vaultTvlScore": 82.5438854796548,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x724dc807b04555b71ed48a6896b6F41593b8C637",
+          "chainId": 42161,
+          "name": "Aave v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "19210",
+          "tvlUsd": "213176297",
+          "tvlNative": "213168246055966",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 292,
+                  "7day": 276,
+                  "30day": 253
+              },
+              "total": {
+                  "1day": 292,
+                  "7day": 276,
+                  "30day": 253
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 85.67407029610169,
+              "holderScore": 85.66676885455871,
+              "networkScore": 60,
+              "vaultTvlScore": 84.51036024661404,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x1601843c5E9bC251A3272907010AFa41Fa18347E",
+          "chainId": 8453,
+          "name": "Savings USDS",
+          "description": "Sky protocol pays yield to users who deposit USDS into the Sky Savings Rate (SSR) module. SSR yield is funded by the Sky protocol's excess reserves, generated by fees paid by overcollateralized borrowers on Sky who borrow through collateralized debt positions (\"CDPs\"). sUSDS on Base is enabled by the cross-chain Spark PSM.",
+          "protocol": "sky",
+          "numberOfHolders": "61600",
+          "tvlUsd": "212663887",
+          "tvlNative": "212701129122040229794024870",
+          "token": {
+              "name": "USDS Stablecoin",
+              "symbol": "USDS",
+              "address": "0x820C137fa70C8691f0e44Dc420a5e53c168921Dc",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              },
+              "total": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 65.19086602802811,
+              "holderScore": 95.79103632282674,
+              "networkScore": 20,
+              "vaultTvlScore": 80.0355285280536,
+              "protocolTvlScore": 80.78776218498344
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "CDP",
+              "RWA"
+          ]
+      },
+      {
+          "address": "0x9Fb7b4477576Fe5B32be4C1843aFB1e55F251B33",
+          "chainId": 1,
+          "name": "Fluid USDC",
+          "description": "Lenders supply assets into Fluid's Liquidity Layer via the Lend Protocol. Lenders in Fluid can earn yield from multiple sources that tap into this Liquidity Layer, including interest paid by borrowers in the Vault Protocol, fees generated from leveraged positions in the stETH Protocol, or revenue generated from other protocols built on top of Fluid's Liquidity Layer.",
+          "protocol": "fluid",
+          "numberOfHolders": "1245",
+          "tvlUsd": "212637422",
+          "tvlNative": "212629391329087",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 211,
+                  "7day": 225,
+                  "30day": 258
+              },
+              "total": {
+                  "1day": 211,
+                  "7day": 225,
+                  "30day": 258
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 81.64394976659223,
+              "holderScore": 61.833876370117174,
+              "networkScore": 100,
+              "vaultTvlScore": 82.32656201017186,
+              "protocolTvlScore": 85.0713897726007
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x5C20B550819128074FD538Edf79791733ccEdd18",
+          "chainId": 1,
+          "name": "Fluid USDT",
+          "description": "Lenders supply assets into Fluid's Liquidity Layer via the Lend Protocol. Lenders in Fluid can earn yield from multiple sources that tap into this Liquidity Layer, including interest paid by borrowers in the Vault Protocol, fees generated from leveraged positions in the stETH Protocol, or revenue generated from other protocols built on top of Fluid's Liquidity Layer.",
+          "protocol": "fluid",
+          "numberOfHolders": "915",
+          "tvlUsd": "207610414",
+          "tvlNative": "207541164721299",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 199,
+                  "7day": 247,
+                  "30day": 291
+              },
+              "total": {
+                  "1day": 199,
+                  "7day": 247,
+                  "30day": 291
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 74.95322579052379,
+              "holderScore": 59.13348534107072,
+              "networkScore": 100,
+              "vaultTvlScore": 82.14823540161444,
+              "protocolTvlScore": 85.0713897726007
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840",
+          "chainId": 1,
+          "name": "Compound v3 USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "615",
+          "tvlUsd": "203429047",
+          "tvlNative": "203361191530309",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 323,
+                  "7day": 324,
+                  "30day": 329
+              },
+              "total": {
+                  "1day": 376,
+                  "7day": 378,
+                  "30day": 383
+              },
+              "rewards": {
+                  "1day": 53,
+                  "7day": 54,
+                  "30day": 54
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 76.0753379086161,
+              "holderScore": 55.635590859998466,
+              "networkScore": 100,
+              "vaultTvlScore": 81.22862842710707,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x4579a27aF00A62C0EB156349f31B345c08386419",
+          "chainId": 1,
+          "name": "Aave v3 sUSDe",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "293",
+          "tvlUsd": "193224580",
+          "tvlNative": "164996383478458097522509343",
+          "token": {
+              "name": "Staked USDe",
+              "symbol": "sUSDe",
+              "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 75.75448165925742,
+              "holderScore": 49.036154740948426,
+              "networkScore": 100,
+              "vaultTvlScore": 84.26037764760038,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x5E8C8A7243651DB1384C0dDfDbE39761E8e7E51a",
+          "chainId": 1,
+          "name": "Aave Ethereum LINK",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "2543",
+          "tvlUsd": "191437914",
+          "tvlNative": "12979668815485372320177737",
+          "token": {
+              "name": "ChainLink Token",
+              "symbol": "LINK",
+              "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 4,
+                  "7day": 5,
+                  "30day": 5
+              },
+              "total": {
+                  "1day": 4,
+                  "7day": 5,
+                  "30day": 5
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 78.13858502845243,
+              "holderScore": 68.07329522263896,
+              "networkScore": 100,
+              "vaultTvlScore": 81.90303913230746,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xA700b4eB416Be35b2911fd5Dee80678ff64fF6C9",
+          "chainId": 1,
+          "name": "Aave Ethereum AAVE",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "1833",
+          "tvlUsd": "191138296",
+          "tvlNative": "1140056318746826079131277",
+          "token": {
+              "name": "Aave Token",
+              "symbol": "AAVE",
+              "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 77.6864349115919,
+              "holderScore": 65.21629997809939,
+              "networkScore": 100,
+              "vaultTvlScore": 81.78503498140952,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x8437d7C167dFB82ED4Cb79CD44B7a32A1dd95c77",
+          "chainId": 42161,
+          "name": "Aave v3 weETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "1302",
+          "tvlUsd": "185074046",
+          "tvlNative": "95838565912837958986480",
+          "token": {
+              "name": "Wrapped eETH",
+              "symbol": "weETH",
+              "address": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 2,
+                  "7day": 2,
+                  "30day": 2
+              },
+              "total": {
+                  "1day": 2,
+                  "7day": 2,
+                  "30day": 2
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 72.18597219167407,
+              "holderScore": 62.225790896372956,
+              "networkScore": 60,
+              "vaultTvlScore": 81.5256031931152,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x018008bfb33d285247A21d44E50697654f754e63",
+          "chainId": 1,
+          "name": "Aave v3 DAI",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "1697",
+          "tvlUsd": "162147387",
+          "tvlNative": "162151927440778645876257836",
+          "token": {
+              "name": "Dai Stablecoin",
+              "symbol": "DAI",
+              "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 258,
+                  "7day": 242,
+                  "30day": 232
+              },
+              "total": {
+                  "1day": 258,
+                  "7day": 242,
+                  "30day": 232
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 87.40959999344444,
+              "holderScore": 64.54286240589698,
+              "networkScore": 100,
+              "vaultTvlScore": 84.03093856982403,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6",
+          "chainId": 8453,
+          "name": "Aave v3 cbBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "4858",
+          "tvlUsd": "158215930",
+          "tvlNative": "169587723238",
+          "token": {
+              "name": "Coinbase Wrapped BTC",
+              "symbol": "cbBTC",
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 5,
+                  "7day": 6,
+                  "30day": 8
+              },
+              "total": {
+                  "1day": 5,
+                  "7day": 6,
+                  "30day": 8
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 71.68740235471921,
+              "holderScore": 73.71189263862718,
+              "networkScore": 20,
+              "vaultTvlScore": 79.79317770165027,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xD4a0e0b9149BCee3C920d2E00b5dE09138fd8bb7",
+          "chainId": 8453,
+          "name": "Aave v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "216199",
+          "tvlUsd": "143500785",
+          "tvlNative": "79214366499225940593069",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 169,
+                  "7day": 191,
+                  "30day": 200
+              },
+              "total": {
+                  "1day": 169,
+                  "7day": 191,
+                  "30day": 200
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 85.48496929207332,
+              "holderScore": 100,
+              "networkScore": 20,
+              "vaultTvlScore": 82.18993186739118,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x7C307e128efA31F540F2E2d976C995E0B65F51F6",
+          "chainId": 8453,
+          "name": "Aave v3 weETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "2558",
+          "tvlUsd": "140298879",
+          "tvlNative": "72652236578194147991843",
+          "token": {
+              "name": "Wrapped eETH",
+              "symbol": "weETH",
+              "address": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 1,
+                  "30day": 1
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 1,
+                  "30day": 1
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 67.82960690721285,
+              "holderScore": 68.12458034566396,
+              "networkScore": 20,
+              "vaultTvlScore": 80.31968468384086,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB",
+          "chainId": 8453,
+          "name": "Aave v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "98342",
+          "tvlUsd": "135863768",
+          "tvlNative": "135858637416659",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 334,
+                  "7day": 338,
+                  "30day": 314
+              },
+              "total": {
+                  "1day": 334,
+                  "7day": 338,
+                  "30day": 314
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 82.13329871627025,
+              "holderScore": 99.85476499665366,
+              "networkScore": 20,
+              "vaultTvlScore": 81.16550524088557,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+          "chainId": 1,
+          "name": "Compound v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "1432",
+          "tvlUsd": "124581779",
+          "tvlNative": "68770820034630974672228",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 153,
+                  "7day": 179,
+                  "30day": 231
+              },
+              "total": {
+                  "1day": 197,
+                  "7day": 230,
+                  "30day": 288
+              },
+              "rewards": {
+                  "1day": 44,
+                  "7day": 51,
+                  "30day": 57
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 87.2275942735404,
+              "holderScore": 63.05853978606283,
+              "networkScore": 100,
+              "vaultTvlScore": 84.54769855718025,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+          "chainId": 1,
+          "name": "Steakhouse USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB&network=mainnet).\n\nDescription from vault manager:\nThe Steakhouse USDC vault aims to optimize yields by lending USDC against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the “dual engine.”\n\n[See more](https://app.morpho.org/vault?vault=0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "399",
+          "tvlUsd": "121225874",
+          "tvlNative": "121221295825188",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 451,
+                  "7day": 446,
+                  "30day": 393
+              },
+              "total": {
+                  "1day": 521,
+                  "7day": 510,
+                  "30day": 467
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 74
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 80.97900464516388,
+              "holderScore": 51.79944206466218,
+              "networkScore": 100,
+              "vaultTvlScore": 80.69302592123415,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x10Ac93971cdb1F5c778144084242374473c350Da",
+          "chainId": 1,
+          "name": "Aave Ethereum tBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "158",
+          "tvlUsd": "119242037",
+          "tvlNative": "1262743865430223797467",
+          "token": {
+              "name": "tBTC v2",
+              "symbol": "tBTC",
+              "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 73.91687693915213,
+              "holderScore": 43.40561141970188,
+              "networkScore": 100,
+              "vaultTvlScore": 79.29526153800882,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x078f358208685046a11C85e8ad32895DED33A249",
+          "chainId": 137,
+          "name": "Aave v3 WBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "33381",
+          "tvlUsd": "117677328",
+          "tvlNative": "125028212417",
+          "token": {
+              "name": "(PoS) Wrapped BTC",
+              "symbol": "WBTC",
+              "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 2,
+                  "7day": 2,
+                  "30day": 3
+              },
+              "total": {
+                  "1day": 2,
+                  "7day": 2,
+                  "30day": 3
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 74.91236164180306,
+              "holderScore": 90.46817041505602,
+              "networkScore": 20,
+              "vaultTvlScore": 83.37001570465162,
+              "protocolTvlScore": 97.60783234653582
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A",
+          "chainId": 8453,
+          "name": "Spark USDC Vault",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "876",
+          "tvlUsd": "113192126",
+          "tvlNative": "113187851505592",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 451,
+                  "7day": 451,
+                  "30day": 456
+              },
+              "total": {
+                  "1day": 536,
+                  "7day": 528,
+                  "30day": 537
+              },
+              "rewards": {
+                  "1day": 85,
+                  "7day": 77,
+                  "30day": 81
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 71.17570308710441,
+              "holderScore": 58.750868273102554,
+              "networkScore": 20,
+              "vaultTvlScore": 76.46294847460645,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xA0D3707c569ff8C87FA923d3823eC5D81c98Be78",
+          "chainId": 1,
+          "name": "Instadapp ETH v2",
+          "description": "This Instadapp vault seeks to optimize yield on ETH by converting ETH into an optimized leverage stETH position across multiple DeFi protocols (Aave, Compound, Spark, and Morpho).",
+          "protocol": "fluid",
+          "numberOfHolders": "1258",
+          "tvlUsd": "108191211",
+          "tvlNative": "59800440503499357762628",
+          "token": {
+              "name": "Liquid staked Ether 2.0",
+              "symbol": "stETH",
+              "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 487,
+                  "30day": 503
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 487,
+                  "30day": 503
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 71.97184713647653,
+              "holderScore": 61.92482971534232,
+              "networkScore": 100,
+              "vaultTvlScore": 83.6385377986253,
+              "protocolTvlScore": 83.6385377986253
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Yield Aggregator"
+          ]
+      },
+      {
+          "address": "0x2B05F8e1cACC6974fD79A673a341Fe1f58d27266",
+          "chainId": 42161,
+          "name": "Savings USDS",
+          "description": "Sky protocol pays yield to users who deposit USDS into the Sky Savings Rate (SSR) module. SSR yield is funded by the Sky protocol's excess reserves, generated by fees paid by overcollateralized borrowers on Sky who borrow through collateralized debt positions (\"CDPs\"). sUSDS on Base is enabled by the cross-chain Spark PSM.",
+          "protocol": "sky",
+          "numberOfHolders": "515",
+          "tvlUsd": "100889584",
+          "tvlNative": "100907252491960015915822148",
+          "token": {
+              "name": "USDS Stablecoin",
+              "symbol": "USDS",
+              "address": "0x6491c05A82219b8D1479057361ff1654749b876b",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              },
+              "total": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 63.19448419605282,
+              "holderScore": 54.06629729516061,
+              "networkScore": 60,
+              "vaultTvlScore": 76.34717363892678,
+              "protocolTvlScore": 80.78776218498344
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "CDP",
+              "RWA"
+          ]
+      },
+      {
+          "address": "0xBc65ad17c5C0a2A4D159fa5a503f4992c7B545FE",
+          "chainId": 1,
+          "name": "USDC Savings Vault",
+          "description": "The USDC Savings Vault from Spark is powered by the Sky Savings Rate. Sky protocol pays yield to users who deposit USDC or USDS into the Sky Savings Rate (SSR) module. SSR yield is funded by the Sky protocol's excess reserves, generated by fees paid by overcollateralized borrowers on Sky who borrow through collateralized debt positions (\"CDPs\").",
+          "protocol": "spark",
+          "numberOfHolders": "123",
+          "tvlUsd": "94180392",
+          "tvlNative": "94176834956030",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              },
+              "total": {
+                  "1day": 450,
+                  "7day": 450,
+                  "30day": 450
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 71.96181322777386,
+              "holderScore": 41.061925619320974,
+              "networkScore": 100,
+              "vaultTvlScore": 72.76364196113036,
+              "protocolTvlScore": 73.4369899816241
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": []
+      },
+      {
+          "address": "0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2",
+          "chainId": 1,
+          "name": "Euler Prime WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2?chainId=1).\n\nDescription from vault manager:\n\nA conservative WETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0xD8b27CF359b7D15710a5BE299AF6e7Bf904984C2?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "111",
+          "tvlUsd": "88851936",
+          "tvlNative": "49047465704119266533417",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 202,
+                  "7day": 222,
+                  "30day": 200
+              },
+              "total": {
+                  "1day": 612,
+                  "7day": 662,
+                  "30day": 652
+              },
+              "rewards": {
+                  "1day": 410,
+                  "7day": 440,
+                  "30day": 452
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 79.2881653680474,
+              "holderScore": 40.08677575311688,
+              "networkScore": 100,
+              "vaultTvlScore": 75.25184136581996,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
+          "chainId": 42161,
+          "name": "Aave v3 USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "21588",
+          "tvlUsd": "84817996",
+          "tvlNative": "84789705133719",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 289,
+                  "7day": 276,
+                  "30day": 263
+              },
+              "total": {
+                  "1day": 289,
+                  "7day": 276,
+                  "30day": 263
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 79.06188406315854,
+              "holderScore": 86.68097686724387,
+              "networkScore": 60,
+              "vaultTvlScore": 81.93877307238441,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xCc9EE9483f662091a1de4795249E24aC0aC2630f",
+          "chainId": 1,
+          "name": "Aave Ethereum rETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "537",
+          "tvlUsd": "83879995",
+          "tvlNative": "41350248538245009161939",
+          "token": {
+              "name": "Rocket Pool ETH",
+              "symbol": "rETH",
+              "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 1,
+                  "7day": 0,
+                  "30day": 1
+              },
+              "total": {
+                  "1day": 1,
+                  "7day": 0,
+                  "30day": 1
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 75.59070249271718,
+              "holderScore": 54.43668525500176,
+              "networkScore": 100,
+              "vaultTvlScore": 79.3910839293592,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xBEeFFF209270748ddd194831b3fa287a5386f5bC",
+          "chainId": 1,
+          "name": "Smokehouse USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xBEeFFF209270748ddd194831b3fa287a5386f5bC&network=mainnet).\n\nDescription from vault manager:\nThe Smokehouse USDC vault aims to optimize for yield on a wide range of collaterals.\n\n[See more](https://app.morpho.org/vault?vault=0xBEeFFF209270748ddd194831b3fa287a5386f5bC&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "115",
+          "tvlUsd": "83821393",
+          "tvlNative": "83818227805087",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 483,
+                  "7day": 523,
+                  "30day": 511
+              },
+              "total": {
+                  "1day": 578,
+                  "7day": 610,
+                  "30day": 589
+              },
+              "rewards": {
+                  "1day": 95,
+                  "7day": 87,
+                  "30day": 78
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 78.77437762424552,
+              "holderScore": 40.42413718988888,
+              "networkScore": 100,
+              "vaultTvlScore": 78.20136947272226,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xf951E335afb289353dc249e82926178EaC7DEd78",
+          "chainId": 1,
+          "name": "Swell swETH",
+          "description": "Swell ETH (swETH) earns rewards generated from staking on the Ethereum network. swETH is a \"liquid staking\" token that represents ETH staked through the Swell network of node operators, including accrued rewards earned through staking.",
+          "protocol": "swell",
+          "numberOfHolders": "19080",
+          "tvlUsd": "77252210",
+          "tvlNative": "42644260811436494537049",
+          "token": {
+              "name": "Ether",
+              "symbol": "ETH",
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 405,
+                  "30day": 291
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 405,
+                  "30day": 291
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 89.9857400482479,
+              "holderScore": 85.60775762871306,
+              "networkScore": 100,
+              "vaultTvlScore": 86.90762733990157,
+              "protocolTvlScore": 86.90762733990157
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Liquid Staking"
+          ]
+      },
+      {
+          "address": "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf",
+          "chainId": 42161,
+          "name": "Aave Arbitrum wstETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "4339",
+          "tvlUsd": "75159827",
+          "tvlNative": "35066334725732572323233",
+          "token": {
+              "name": "Wrapped liquid staked Ether 2.0",
+              "symbol": "wstETH",
+              "address": "0x5979D7b546E38E414F7E9822514be443A4800529",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 73.35121004931746,
+              "holderScore": 72.7283835869118,
+              "networkScore": 60,
+              "vaultTvlScore": 79.47484796342799,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x56D919E7B25aA42F3F8a4BC77b8982048F2E84B4",
+          "chainId": 1,
+          "name": "Aave Ethereum Lido rsETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "5",
+          "tvlUsd": "74883551",
+          "tvlNative": "40212691056390615716903",
+          "token": {
+              "name": "rsETH",
+              "symbol": "rsETH",
+              "address": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 66.62052935208035,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 75.36773216742634,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1",
+          "chainId": 1,
+          "name": "Coinshift USDL",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1&network=mainnet).\n\nDescription from vault manager:\nCoinshift's USDL provides users with exposure to the yield-bearing stablecoin Paxos USDL, while offering an higher yield on the borrowed part. Using a yield-bearing stablecoin as base asset enhances efficiency (“optimal dual engine”). The vault is curated by Steakhouse on behalf of Coinshift.\n\n[See more](https://app.morpho.org/vault?vault=0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "127",
+          "tvlUsd": "70800061",
+          "tvlNative": "69256027803263405565671895",
+          "token": {
+              "name": "Wrapped USDL",
+              "symbol": "wUSDL",
+              "address": "0x7751E2F4b8ae93EF6B79d86419d42FE3295A4559",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 17,
+                  "7day": 18,
+                  "30day": 19
+              },
+              "total": {
+                  "1day": 87,
+                  "7day": 82,
+                  "30day": 95
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 76
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 68.87233900983507,
+              "holderScore": 41.36407660969042,
+              "networkScore": 100,
+              "vaultTvlScore": 74.86122183581891,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xe0a80d35bB6618CBA260120b279d357978c42BCE",
+          "chainId": 1,
+          "name": "Euler Yield USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0xe0a80d35bB6618CBA260120b279d357978c42BCE?chainId=1).\n\n\n\n[See more](https://app.euler.finance/vault/0xe0a80d35bB6618CBA260120b279d357978c42BCE?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "139",
+          "tvlUsd": "69702125",
+          "tvlNative": "69699492463452",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 506,
+                  "7day": 521,
+                  "30day": 466
+              },
+              "total": {
+                  "1day": 781,
+                  "7day": 810,
+                  "30day": 772
+              },
+              "rewards": {
+                  "1day": 275,
+                  "7day": 289,
+                  "30day": 306
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 76.10830137175518,
+              "holderScore": 42.21216094898414,
+              "networkScore": 100,
+              "vaultTvlScore": 73.38348248745844,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x8eB67A509616cd6A7c1B3c8C21D48FF57df3d458",
+          "chainId": 1,
+          "name": "Gauntlet USDC Core",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "425",
+          "tvlUsd": "65676174",
+          "tvlNative": "65673694020387",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 417,
+                  "7day": 480,
+                  "30day": 469
+              },
+              "total": {
+                  "1day": 489,
+                  "7day": 548,
+                  "30day": 543
+              },
+              "rewards": {
+                  "1day": 72,
+                  "7day": 68,
+                  "30day": 74
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 80.90413373087574,
+              "holderScore": 52.361416854876715,
+              "networkScore": 100,
+              "vaultTvlScore": 79.89719025713248,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x0F359FD18BDa75e9c49bC027E7da59a4b01BF32a",
+          "chainId": 1,
+          "name": "Relend USDC",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "254",
+          "tvlUsd": "60875271",
+          "tvlNative": "60872971951202",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 570,
+                  "7day": 572,
+                  "30day": 566
+              },
+              "total": {
+                  "1day": 640,
+                  "7day": 636,
+                  "30day": 640
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 74
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 79.38753287063884,
+              "holderScore": 47.74821136747092,
+              "networkScore": 100,
+              "vaultTvlScore": 75.77409007150237,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x18eFE565A5373f430e2F809b97De30335B3ad96A",
+          "chainId": 1,
+          "name": "Aave v3 Prime GHO",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "13",
+          "tvlUsd": "55984355",
+          "tvlNative": "56002512585782345811223812",
+          "token": {
+              "name": "Gho Token",
+              "symbol": "GHO",
+              "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 192,
+                  "7day": 183,
+                  "30day": 209
+              },
+              "total": {
+                  "1day": 192,
+                  "7day": 183,
+                  "30day": 209
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 70.94418334185568,
+              "holderScore": 9.542508000549317,
+              "networkScore": 100,
+              "vaultTvlScore": 74.20412111589094,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xF7DE3c70F2db39a188A81052d2f3C8e3e217822a",
+          "chainId": 1,
+          "name": "SuperUSDC",
+          "description": "",
+          "protocol": "yearn",
+          "numberOfHolders": "132",
+          "tvlUsd": "52243903",
+          "tvlNative": "52244948355526",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 549,
+                  "7day": 539,
+                  "30day": 503
+              },
+              "total": {
+                  "1day": 549,
+                  "7day": 539,
+                  "30day": 503
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 60.19539227882381,
+              "holderScore": 41.727559146230675,
+              "networkScore": 100,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 80.15314601722302
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Yield Aggregator"
+          ]
+      },
+      {
+          "address": "0x09AA30b182488f769a9824F15E6Ce58591Da4781",
+          "chainId": 1,
+          "name": "Aave v3 Prime USDS",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "4",
+          "tvlUsd": "50630068",
+          "tvlNative": "50638934797795340277048777",
+          "token": {
+              "name": "USDS Stablecoin",
+              "symbol": "USDS",
+              "address": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 423,
+                  "7day": 423,
+                  "30day": 239
+              },
+              "total": {
+                  "1day": 423,
+                  "7day": 423,
+                  "30day": 239
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 67.54642018877473,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 79.99718635089826,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x6ab707Aca953eDAeFBc4fD23bA73294241490620",
+          "chainId": 137,
+          "name": "Aave v3 USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "26019",
+          "tvlUsd": "49948648",
+          "tvlNative": "49931987266631",
+          "token": {
+              "name": "(PoS) Tether USD",
+              "symbol": "USDT",
+              "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 382,
+                  "7day": 398,
+                  "30day": 359
+              },
+              "total": {
+                  "1day": 382,
+                  "7day": 398,
+                  "30day": 359
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 70.90437678968026,
+              "holderScore": 88.3032402796448,
+              "networkScore": 20,
+              "vaultTvlScore": 80.55953914569228,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xbEef047a543E45807105E51A8BBEFCc5950fcfBa",
+          "chainId": 1,
+          "name": "Steakhouse USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xbEef047a543E45807105E51A8BBEFCc5950fcfBa&network=mainnet).\n\nDescription from vault manager:\nThe Steakhouse USDT vault aims to optimize yields by lending USDT against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the “dual engine.”\n\n[See more](https://app.morpho.org/vault?vault=0xbEef047a543E45807105E51A8BBEFCc5950fcfBa&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "249",
+          "tvlUsd": "43747782",
+          "tvlNative": "43733190239949",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 275,
+                  "7day": 269,
+                  "30day": 291
+              },
+              "total": {
+                  "1day": 345,
+                  "7day": 333,
+                  "30day": 365
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 74
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 73.30255885845227,
+              "holderScore": 47.5683712971926,
+              "networkScore": 100,
+              "vaultTvlScore": 76.73410006327828,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x9a8bC3B04b7f3D87cfC09ba407dCED575f2d61D8",
+          "chainId": 1,
+          "name": "MEV Capital wETH",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "155",
+          "tvlUsd": "42903147",
+          "tvlNative": "23758069166652055862978",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 426,
+                  "7day": 504,
+                  "30day": 534
+              },
+              "total": {
+                  "1day": 461,
+                  "7day": 535,
+                  "30day": 572
+              },
+              "rewards": {
+                  "1day": 35,
+                  "7day": 31,
+                  "30day": 38
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 81.94934484949005,
+              "holderScore": 43.22773561110142,
+              "networkScore": 100,
+              "vaultTvlScore": 76.34850678303548,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD",
+          "chainId": 137,
+          "name": "Aave v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "7366",
+          "tvlUsd": "42409992",
+          "tvlNative": "42408390524274",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 328,
+                  "7day": 309,
+                  "30day": 318
+              },
+              "total": {
+                  "1day": 328,
+                  "7day": 309,
+                  "30day": 318
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 78.39000718155307,
+              "holderScore": 77.33350629168409,
+              "networkScore": 20,
+              "vaultTvlScore": 79.33999159602692,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xc582F04d8a82795aa2Ff9c8bb4c1c889fe7b754e",
+          "chainId": 1,
+          "name": "Gauntlet USDC Frontier",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xc582F04d8a82795aa2Ff9c8bb4c1c889fe7b754e&network=mainnet).\n\nDescription from vault manager:\nThe Gauntlet USDC Frontier Vault targets maximum yield by allocating to potentially higher volatility markets that may face liquidity risks in exchange for greater supplier returns.\n\n[See more](https://app.morpho.org/vault?vault=0xc582F04d8a82795aa2Ff9c8bb4c1c889fe7b754e&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "52",
+          "tvlUsd": "41239183",
+          "tvlNative": "41237625711476",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 502,
+                  "7day": 537,
+                  "30day": 549
+              },
+              "total": {
+                  "1day": 629,
+                  "7day": 667,
+                  "30day": 676
+              },
+              "rewards": {
+                  "1day": 127,
+                  "7day": 130,
+                  "30day": 127
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 75.99301421689175,
+              "holderScore": 32.4652678690854,
+              "networkScore": 100,
+              "vaultTvlScore": 70.26370442655606,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738",
+          "chainId": 8453,
+          "name": "Seamless USDC Vault",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "7256",
+          "tvlUsd": "40747903",
+          "tvlNative": "40746364863546",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 385,
+                  "7day": 390,
+                  "30day": 427
+              },
+              "total": {
+                  "1day": 613,
+                  "7day": 604,
+                  "30day": 639
+              },
+              "rewards": {
+                  "1day": 228,
+                  "7day": 214,
+                  "30day": 212
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 73.43462962305162,
+              "holderScore": 77.20263733733255,
+              "networkScore": 20,
+              "vaultTvlScore": 73.91875435617006,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+          "chainId": 137,
+          "name": "Aave v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "33761",
+          "tvlUsd": "38910751",
+          "tvlNative": "21479259186520682981391",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 71,
+                  "7day": 90,
+                  "30day": 90
+              },
+              "total": {
+                  "1day": 71,
+                  "7day": 90,
+                  "30day": 90
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 84.16789044884054,
+              "holderScore": 90.56651974917935,
+              "networkScore": 20,
+              "vaultTvlScore": 82.6796478393428,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf",
+          "chainId": 42161,
+          "name": "Compound v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "21130",
+          "tvlUsd": "38313484",
+          "tvlNative": "38312037364081",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 326,
+                  "7day": 316,
+                  "30day": 321
+              },
+              "total": {
+                  "1day": 407,
+                  "7day": 396,
+                  "30day": 402
+              },
+              "rewards": {
+                  "1day": 81,
+                  "7day": 80,
+                  "30day": 81
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 81.53221663426434,
+              "holderScore": 86.4946297502521,
+              "networkScore": 60,
+              "vaultTvlScore": 79.118742887658,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9",
+          "chainId": 1,
+          "name": "Euler Prime USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9?chainId=1).\n\nDescription from vault manager:\n\nA conservative USDC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0x797DD80692c3b2dAdabCe8e30C07fDE5307D48a9?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "240",
+          "tvlUsd": "37907645",
+          "tvlNative": "37906213868262",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 329,
+                  "7day": 300,
+                  "30day": 261
+              },
+              "total": {
+                  "1day": 800,
+                  "7day": 786,
+                  "30day": 724
+              },
+              "rewards": {
+                  "1day": 471,
+                  "7day": 486,
+                  "30day": 463
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 77.03212348310048,
+              "holderScore": 47.234967101936476,
+              "networkScore": 100,
+              "vaultTvlScore": 74.23548842947066,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x078f358208685046a11C85e8ad32895DED33A249",
+          "chainId": 10,
+          "name": "Aave v3 WBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "1608",
+          "tvlUsd": "37679545",
+          "tvlNative": "39728853200",
+          "token": {
+              "name": "Wrapped BTC",
+              "symbol": "WBTC",
+              "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 1,
+                  "7day": 1,
+                  "30day": 2
+              },
+              "total": {
+                  "1day": 1,
+                  "7day": 1,
+                  "30day": 2
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 75.38171179828171,
+              "holderScore": 64.07209216358031,
+              "networkScore": 60,
+              "vaultTvlScore": 80.49457527574793,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x974c8FBf4fd795F66B85B73ebC988A51F1A040a9",
+          "chainId": 1,
+          "name": "Hakutora USDC",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "246",
+          "tvlUsd": "37098179",
+          "tvlNative": "37096778652857",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 415,
+                  "7day": 446,
+                  "30day": 474
+              },
+              "total": {
+                  "1day": 485,
+                  "7day": 510,
+                  "30day": 548
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 74
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 79.02531267737979,
+              "holderScore": 47.45865238438433,
+              "networkScore": 100,
+              "vaultTvlScore": 74.18015834252208,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x2371e134e3455e0593363cBF89d3b6cf53740618",
+          "chainId": 1,
+          "name": "Gauntlet WETH Prime",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "337",
+          "tvlUsd": "36219029",
+          "tvlNative": "20056668650795016788641",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 205,
+                  "7day": 211,
+                  "30day": 213
+              },
+              "total": {
+                  "1day": 240,
+                  "7day": 242,
+                  "30day": 252
+              },
+              "rewards": {
+                  "1day": 35,
+                  "7day": 31,
+                  "30day": 39
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 83.67757585767957,
+              "holderScore": 50.29139198928091,
+              "networkScore": 100,
+              "vaultTvlScore": 79.69191954034852,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x1c0E06a0b1A4c160c17545FF2A951bfcA57C0002",
+          "chainId": 1,
+          "name": "Aave Ethereum ETHx",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "57",
+          "tvlUsd": "36073984",
+          "tvlNative": "19067714612826738108141",
+          "token": {
+              "name": "ETHx",
+              "symbol": "ETHx",
+              "address": "0xA35b1B31Ce002FBF2058D22F30f95D405200A15b",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 17
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 17
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 71.62498524221175,
+              "holderScore": 33.442247707929255,
+              "networkScore": 100,
+              "vaultTvlScore": 75.30832583713635,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xdd0f28e19C1780eb6396170735D45153D261490d",
+          "chainId": 1,
+          "name": "Gauntlet USDC Prime",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xdd0f28e19C1780eb6396170735D45153D261490d&network=mainnet).\n\nDescription from vault manager:\nThe Gauntlet USDC Prime vault aims to optimize for risk-adjusted yield across large market cap and high liquidity collateral markets.\n\n[See more](https://app.morpho.org/vault?vault=0xdd0f28e19C1780eb6396170735D45153D261490d&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "116",
+          "tvlUsd": "35911018",
+          "tvlNative": "35909662301480",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 451,
+                  "7day": 447,
+                  "30day": 398
+              },
+              "total": {
+                  "1day": 521,
+                  "7day": 511,
+                  "30day": 471
+              },
+              "rewards": {
+                  "1day": 70,
+                  "7day": 64,
+                  "30day": 73
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 78.57865201479048,
+              "holderScore": 40.50646922909358,
+              "networkScore": 100,
+              "vaultTvlScore": 77.16099239604355,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xc2015641564a5914A17CB9A92eC8d8feCfa8f2D0",
+          "chainId": 1,
+          "name": "Aave v3 Prime sUSDe",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "20",
+          "tvlUsd": "35796495",
+          "tvlNative": "30566982398220677453248870",
+          "token": {
+              "name": "Staked USDe",
+              "symbol": "sUSDe",
+              "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              },
+              "total": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 0
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 69.78354463705867,
+              "holderScore": 20.000173763283968,
+              "networkScore": 100,
+              "vaultTvlScore": 76.18267826985496,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658",
+          "chainId": 1,
+          "name": "Gauntlet WETH Core",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "215",
+          "tvlUsd": "35702202",
+          "tvlNative": "19770469768179224465417",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 332,
+                  "7day": 399,
+                  "30day": 441
+              },
+              "total": {
+                  "1day": 376,
+                  "7day": 441,
+                  "30day": 490
+              },
+              "rewards": {
+                  "1day": 44,
+                  "7day": 42,
+                  "30day": 49
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 82.6926962337219,
+              "holderScore": 46.235478919057705,
+              "networkScore": 100,
+              "vaultTvlScore": 77.80945622322758,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA",
+          "chainId": 10,
+          "name": "Aave Optimism wstETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "2915",
+          "tvlUsd": "35493390",
+          "tvlNative": "16559685507344455199775",
+          "token": {
+              "name": "Wrapped liquid staked Ether 2.0",
+              "symbol": "wstETH",
+              "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 1,
+                  "7day": 0,
+                  "30day": 1
+              },
+              "total": {
+                  "1day": 1,
+                  "7day": 0,
+                  "30day": 1
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 56.93651159392097,
+              "holderScore": 69.26352450217256,
+              "networkScore": 60,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8",
+          "chainId": 10,
+          "name": "Aave v3 WETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "74170",
+          "tvlUsd": "34822952",
+          "tvlNative": "19222738751098412720490",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 149,
+                  "7day": 156,
+                  "30day": 174
+              },
+              "total": {
+                  "1day": 149,
+                  "7day": 156,
+                  "30day": 174
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 90.01194355465718,
+              "holderScore": 97.40424067941302,
+              "networkScore": 60,
+              "vaultTvlScore": 81.77162267075072,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4",
+          "chainId": 1,
+          "name": "Euler Prime WBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4?chainId=1).\n\nDescription from vault manager:\n\nA conservative WBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0x998D761eC1BAdaCeb064624cc3A1d37A46C88bA4?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "38",
+          "tvlUsd": "34580791",
+          "tvlNative": "36461564810",
+          "token": {
+              "name": "Wrapped BTC",
+              "symbol": "WBTC",
+              "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 48,
+                  "7day": 49,
+                  "30day": 84
+              },
+              "total": {
+                  "1day": 176,
+                  "7day": 179,
+                  "30day": 190
+              },
+              "rewards": {
+                  "1day": 128,
+                  "7day": 130,
+                  "30day": 106
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 67.92392343167205,
+              "holderScore": 28.943412089776327,
+              "networkScore": 100,
+              "vaultTvlScore": 73.66315443144872,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xbC35161043EE2D74816d421EfD6a45fDa73B050A",
+          "chainId": 1,
+          "name": "Euler Prime LBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0xbC35161043EE2D74816d421EfD6a45fDa73B050A?chainId=1).\n\nDescription from vault manager:\n\nA conservative LBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0xbC35161043EE2D74816d421EfD6a45fDa73B050A?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "33",
+          "tvlUsd": "34305523",
+          "tvlNative": "36117772404",
+          "token": {
+              "name": "Lombard Staked Bitcoin",
+              "symbol": "LBTC",
+              "address": "0x8236a87084f8B84306f72007F36F2618A5634494",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 18,
+                  "7day": 17,
+                  "30day": 15
+              },
+              "total": {
+                  "1day": 45,
+                  "7day": 44,
+                  "30day": 37
+              },
+              "rewards": {
+                  "1day": 27,
+                  "7day": 27,
+                  "30day": 22
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 64.73881918141848,
+              "holderScore": 27.234793338652512,
+              "networkScore": 100,
+              "vaultTvlScore": 74.64409724352363,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x61aAC438453d6e3513C0c8dbb69F13860E2B5028",
+          "chainId": 1,
+          "name": "Euler Yield eUSDe",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0x61aAC438453d6e3513C0c8dbb69F13860E2B5028?chainId=1).\n\n\n\n[See more](https://app.euler.finance/vault/0x61aAC438453d6e3513C0c8dbb69F13860E2B5028?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "247",
+          "tvlUsd": "31259618",
+          "tvlNative": "31233659488076676559400064",
+          "token": {
+              "name": "Ethereal Pre-deposit Vault",
+              "symbol": "eUSDe",
+              "address": "0x90D2af7d622ca3141efA4d8f1F24d86E5974Cc8F",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 364,
+                  "7day": 371,
+                  "30day": 232
+              },
+              "total": {
+                  "1day": 364,
+                  "7day": 371,
+                  "30day": 281
+              },
+              "rewards": {
+                  "1day": 0,
+                  "7day": 0,
+                  "30day": 49
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 66.64235690480324,
+              "holderScore": 47.49537956427327,
+              "networkScore": 100,
+              "vaultTvlScore": 68.96634619123186,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+          "chainId": 1,
+          "name": "Savings crvUSD",
+          "description": "",
+          "protocol": "yearn",
+          "numberOfHolders": "374",
+          "tvlUsd": "31116360",
+          "tvlNative": "31063019714776715888394855",
+          "token": {
+              "name": "Curve.Fi USD Stablecoin",
+              "symbol": "crvUSD",
+              "address": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 86,
+                  "7day": 67,
+                  "30day": 194
+              },
+              "total": {
+                  "1day": 86,
+                  "7day": 67,
+                  "30day": 194
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 52.24857118763467,
+              "holderScore": 51.22247269836811,
+              "networkScore": 100,
+              "vaultTvlScore": 0,
+              "protocolTvlScore": 80.16300070719862
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Yield Aggregator"
+          ]
+      },
+      {
+          "address": "0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9",
+          "chainId": 1,
+          "name": "Euler Prime rsETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9?chainId=1).\n\nDescription from vault manager:\n\nA conservative rsETH vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0x1924D7fab80d0623f0836Cbf5258a7fa734EE9D9?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "9",
+          "tvlUsd": "30703411",
+          "tvlNative": "16269692385221491064990",
+          "token": {
+              "name": "rsETH",
+              "symbol": "rsETH",
+              "address": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 2,
+                  "7day": 1,
+                  "30day": 2
+              },
+              "total": {
+                  "1day": 2,
+                  "7day": 1,
+                  "30day": 2
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 59.97751460154348,
+              "holderScore": 0,
+              "networkScore": 100,
+              "vaultTvlScore": 71.26366934813805,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xd98Be00b5D27fc98112BdE293e487f8D4cA57d07",
+          "chainId": 42161,
+          "name": "Compound v3 USDT",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "5644",
+          "tvlUsd": "29668100",
+          "tvlNative": "29658204646854",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 304,
+                  "7day": 280,
+                  "30day": 260
+              },
+              "total": {
+                  "1day": 384,
+                  "7day": 355,
+                  "30day": 328
+              },
+              "rewards": {
+                  "1day": 80,
+                  "7day": 75,
+                  "30day": 68
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 73.23461621443583,
+              "holderScore": 75.01698860724721,
+              "networkScore": 60,
+              "vaultTvlScore": 77.48897164576913,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5",
+          "chainId": 10,
+          "name": "Aave v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "8023",
+          "tvlUsd": "28455403",
+          "tvlNative": "28454328596768",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 233,
+                  "7day": 235,
+                  "30day": 231
+              },
+              "total": {
+                  "1day": 233,
+                  "7day": 235,
+                  "30day": 231
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 83.40181843053193,
+              "holderScore": 78.07658119108463,
+              "networkScore": 60,
+              "vaultTvlScore": 78.8417416663708,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xBEEf050ecd6a16c4e7bfFbB52Ebba7846C4b8cD4",
+          "chainId": 1,
+          "name": "Steakhouse ETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.morpho.org/vault?vault=0xBEEf050ecd6a16c4e7bfFbB52Ebba7846C4b8cD4&network=mainnet).\n\nDescription from vault manager:\nThe Steakhouse ETH vault aims to optimize yields by lending ETH against blue chip crypto and real world asset (RWA) collateral markets, depending on market conditions. We call this the “dual engine.”\n\n[See more](https://app.morpho.org/vault?vault=0xBEEf050ecd6a16c4e7bfFbB52Ebba7846C4b8cD4&network=mainnet)",
+          "protocol": "morpho",
+          "numberOfHolders": "84",
+          "tvlUsd": "28052263",
+          "tvlNative": "15534235818138439272503",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 194,
+                  "7day": 205,
+                  "30day": 211
+              },
+              "total": {
+                  "1day": 229,
+                  "7day": 236,
+                  "30day": 250
+              },
+              "rewards": {
+                  "1day": 35,
+                  "7day": 31,
+                  "30day": 39
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 80.86801631259516,
+              "holderScore": 37.38495919846163,
+              "networkScore": 100,
+              "vaultTvlScore": 75.32394640804094,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x1A996cb54bb95462040408C06122D45D6Cdb6096",
+          "chainId": 42161,
+          "name": "Fluid USDC",
+          "description": "Lenders supply assets into Fluid's Liquidity Layer via the Lend Protocol. Lenders in Fluid can earn yield from multiple sources that tap into this Liquidity Layer, including interest paid by borrowers in the Vault Protocol, fees generated from leveraged positions in the stETH Protocol, or revenue generated from other protocols built on top of Fluid's Liquidity Layer.",
+          "protocol": "fluid",
+          "numberOfHolders": "1887",
+          "tvlUsd": "27964440",
+          "tvlNative": "27963384181359",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 562,
+                  "7day": 574,
+                  "30day": 589
+              },
+              "total": {
+                  "1day": 562,
+                  "7day": 574,
+                  "30day": 589
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 75.69198648279712,
+              "holderScore": 65.46985426032887,
+              "networkScore": 60,
+              "vaultTvlScore": 74.83976217353757,
+              "protocolTvlScore": 85.0713897726007
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x056f3a2E41d2778D3a0c0714439c53af2987718E",
+          "chainId": 1,
+          "name": "Euler Prime cbBTC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral assets into Euler's credit markets and borrow loans against their collateral. For detail on this vault’s curator and risk parameters, see [link](https://app.euler.finance/vault/0x056f3a2E41d2778D3a0c0714439c53af2987718E?chainId=1).\n\nDescription from vault manager:\n\nA conservative cbBTC vault collateralized by other vaults in the Euler Prime cluster and escrow vaults.\n\n[See more](https://app.euler.finance/vault/0x056f3a2E41d2778D3a0c0714439c53af2987718E?chainId=1)",
+          "protocol": "euler",
+          "numberOfHolders": "38",
+          "tvlUsd": "27662556",
+          "tvlNative": "29585812213",
+          "token": {
+              "name": "Coinbase Wrapped BTC",
+              "symbol": "cbBTC",
+              "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+              "decimals": 8
+          },
+          "apy": {
+              "base": {
+                  "1day": 7,
+                  "7day": 8,
+                  "30day": 30
+              },
+              "total": {
+                  "1day": 231,
+                  "7day": 254,
+                  "30day": 239
+              },
+              "rewards": {
+                  "1day": 224,
+                  "7day": 246,
+                  "30day": 209
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 67.77311863521254,
+              "holderScore": 28.943412089776327,
+              "networkScore": 100,
+              "vaultTvlScore": 72.9091304491511,
+              "protocolTvlScore": 83.06195182978968
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x781FB7F6d845E3bE129289833b04d43Aa8558c42",
+          "chainId": 137,
+          "name": "Compound Blue USDC",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "1801",
+          "tvlUsd": "26596388",
+          "tvlNative": "26595383979646",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 29,
+                  "7day": 20,
+                  "30day": 15
+              },
+              "total": {
+                  "1day": 768,
+                  "7day": 774,
+                  "30day": 526
+              },
+              "rewards": {
+                  "1day": 739,
+                  "7day": 754,
+                  "30day": 511
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 70.78858043626869,
+              "holderScore": 65.06247698555268,
+              "networkScore": 20,
+              "vaultTvlScore": 69.79362868609029,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x99CBC45ea5bb7eF3a5BC08FB1B7E56bB2442Ef0D",
+          "chainId": 8453,
+          "name": "Aave v3 wstETH",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "3596",
+          "tvlUsd": "24682153",
+          "tvlNative": "11359126007828010542535",
+          "token": {
+              "name": "Wrapped liquid staked Ether 2.0",
+              "symbol": "wstETH",
+              "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 8,
+                  "7day": 9,
+                  "30day": 31
+              },
+              "total": {
+                  "1day": 8,
+                  "7day": 9,
+                  "30day": 31
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 67.16725102305618,
+              "holderScore": 71.09282336527966,
+              "networkScore": 20,
+              "vaultTvlScore": 74.78172299834574,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xb125E6687d4313864e53df431d5425969c15Eb2F",
+          "chainId": 8453,
+          "name": "Compound v3 USDC",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into the Compound v3 protocol, and then borrow overcollateralized loans from a pool of lenders. The interest paid by borrowers is distributed to lenders.",
+          "protocol": "compound",
+          "numberOfHolders": "6094",
+          "tvlUsd": "24458832",
+          "tvlNative": "24457908871419",
+          "token": {
+              "name": "USD Coin",
+              "symbol": "USDC",
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 285,
+                  "7day": 295,
+                  "30day": 306
+              },
+              "total": {
+                  "1day": 367,
+                  "7day": 380,
+                  "30day": 391
+              },
+              "rewards": {
+                  "1day": 82,
+                  "7day": 85,
+                  "30day": 85
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 75,
+              "vaultScore": 74.3232891497785,
+              "holderScore": 75.68444166076269,
+              "networkScore": 20,
+              "vaultTvlScore": 76.18174653234587,
+              "protocolTvlScore": 89.64818398548731
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D",
+          "chainId": 1,
+          "name": "Syrup USDT",
+          "description": "Lenders earn yield from interest paid by borrowers on the Maple Finance platform. Maple Finance facilitates overcollateralized offchain loans to institutional borrowers. Interest paid by these borrowers is distributed to lenders who have supplied assets through Syrup.",
+          "protocol": "syrup",
+          "numberOfHolders": "237",
+          "tvlUsd": "24402209",
+          "tvlNative": "24394069602152",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 710,
+                  "7day": 728,
+                  "30day": 753
+              },
+              "total": {
+                  "1day": 710,
+                  "7day": 728,
+                  "30day": 753
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 70.04489189913764,
+              "holderScore": 47.12092653465251,
+              "networkScore": 100,
+              "vaultTvlScore": 75.95436107372451,
+              "protocolTvlScore": 80.40220176048715
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": []
+      },
+      {
+          "address": "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530",
+          "chainId": 42161,
+          "name": "Aave Arbitrum LINK",
+          "description": "Lenders earn yield from interest paid by borrowers. Borrowers deposit collateral into Aave and borrow overcollateralized loans from liquidity pools. The interest paid by borrowers is distributed to lenders who have supplied assets to the liquidity pool.",
+          "protocol": "aave",
+          "numberOfHolders": "9370",
+          "tvlUsd": "24262791",
+          "tvlNative": "1645039837605124668637384",
+          "token": {
+              "name": "ChainLink Token",
+              "symbol": "LINK",
+              "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 7,
+                  "7day": 8,
+                  "30day": 14
+              },
+              "total": {
+                  "1day": 7,
+                  "7day": 8,
+                  "30day": 14
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 0,
+              "vaultScore": 73.55015995649066,
+              "holderScore": 79.4262070366951,
+              "networkScore": 60,
+              "vaultTvlScore": 75.44622991195652,
+              "protocolTvlScore": 97.6174572964877
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+          "chainId": 8453,
+          "name": "Moonwell Flagship ETH",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "67141",
+          "tvlUsd": "23132706",
+          "tvlNative": "12769565834115564658078",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 119,
+                  "7day": 123,
+                  "30day": 200
+              },
+              "total": {
+                  "1day": 272,
+                  "7day": 263,
+                  "30day": 324
+              },
+              "rewards": {
+                  "1day": 153,
+                  "7day": 140,
+                  "30day": 124
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 80.44963872315628,
+              "holderScore": 96.53930107383727,
+              "networkScore": 20,
+              "vaultTvlScore": 78.86630205431483,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x4A03F37e7d3fC243e3f99341d36f4b829BEe5E03",
+          "chainId": 42161,
+          "name": "Fluid USDT",
+          "description": "Lenders supply assets into Fluid's Liquidity Layer via the Lend Protocol. Lenders in Fluid can earn yield from multiple sources that tap into this Liquidity Layer, including interest paid by borrowers in the Vault Protocol, fees generated from leveraged positions in the stETH Protocol, or revenue generated from other protocols built on top of Fluid's Liquidity Layer.",
+          "protocol": "fluid",
+          "numberOfHolders": "908",
+          "tvlUsd": "22812220",
+          "tvlNative": "22804611353316",
+          "token": {
+              "name": "Tether USD",
+              "symbol": "USDT",
+              "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+              "decimals": 6
+          },
+          "apy": {
+              "base": {
+                  "1day": 677,
+                  "7day": 704,
+                  "30day": 695
+              },
+              "total": {
+                  "1day": 677,
+                  "7day": 704,
+                  "30day": 695
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 25,
+              "vaultScore": 68.33717170526884,
+              "holderScore": 59.066039904340805,
+              "networkScore": 60,
+              "vaultTvlScore": 74.11854905288722,
+              "protocolTvlScore": 85.0713897726007
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      },
+      {
+          "address": "0x27D8c7273fd3fcC6956a0B370cE5Fd4A7fc65c18",
+          "chainId": 8453,
+          "name": "Seamless WETH Vault",
+          "description": "Morpho Vaults allocate deposits to underlying Morpho overcollateralized lending markets. Deposited assets earn yield from interest paid by borrowers and additional liquidity mining incentives. A vault \"curator\" is responsible for setting the allocations of each vault by enabling/disabling underlying Morpho lending markets and setting the supply cap on each underlying market.",
+          "protocol": "morpho",
+          "numberOfHolders": "774",
+          "tvlUsd": "21943676",
+          "tvlNative": "12113205189193128209187",
+          "token": {
+              "name": "Wrapped Ether",
+              "symbol": "WETH",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+          },
+          "apy": {
+              "base": {
+                  "1day": 188,
+                  "7day": 202,
+                  "30day": 257
+              },
+              "total": {
+                  "1day": 445,
+                  "7day": 452,
+                  "30day": 528
+              },
+              "rewards": {
+                  "1day": 257,
+                  "7day": 250,
+                  "30day": 271
+              }
+          },
+          "scores": {
+              "provider": "vaults.fyi",
+              "assetScore": 100,
+              "vaultScore": 73.21305724280491,
+              "holderScore": 57.662368147283765,
+              "networkScore": 20,
+              "vaultTvlScore": 71.84109434747307,
+              "protocolTvlScore": 87.98870787804432
+          },
+          "hasWithdrawDelay": false,
+          "network": "",
+          "tags": [
+              "Lending"
+          ]
+      }
+  ]
+}
