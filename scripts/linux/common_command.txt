@@ -166,3 +166,6 @@ git push
 # pytest 
 
 pytest -m unit
+
+git add scripts/linux/common_command.txt
+git commit -m "Remove Slack API token from version control"
