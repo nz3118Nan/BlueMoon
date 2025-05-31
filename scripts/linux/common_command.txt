@@ -150,7 +150,7 @@ docker run -d -p 3000:3000 --name blueprint-agent blueprint-ai-agent-service
 
 ################################################################################
 # slack app level token 
-***REMOVED***
+# [REMOVED - Token should be stored in environment variables or secure config]
 
 
 git stash save "Temporary stash before pulling from main"
